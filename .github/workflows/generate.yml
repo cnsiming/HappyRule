@@ -7,7 +7,7 @@ on:
       - 'Filter/**'
       - 'Rules/**'
       - 'Vendor/**'
-      - 'scripts/generate.sh'
+      - 'tools/generate.sh'
       - '.github/workflows/generate.yml'
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ jobs:
           ref: rules
 
       - name: Generate dist (qx/clash/surge/smartdns/dnsmasq/passwall)
-        run: bash scripts/generate.sh
+        run: bash tools/generate.sh
 
       - name: Commit dist
         run: |

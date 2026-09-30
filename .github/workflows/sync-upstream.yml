@@ -20,7 +20,7 @@ jobs:
 
       - name: Fetch upstream resources
         id: sync
-        run: bash scripts/sync_upstream.sh
+        run: bash tools/sync_upstream.sh
         continue-on-error: true
 
       - name: Commit and push if changed
@@ -42,5 +42,5 @@ jobs:
         run: |
           gh issue create \
             --title "上游同步失败 $(date -u '+%Y-%m-%d')" \
-            --body "weekly sync-upstream 存在失败项，查看 Actions 日志：scripts/sync_upstream.sh 输出。" \
+            --body "weekly sync-upstream 存在失败项，查看 Actions 日志：tools/sync_upstream.sh 输出。" \
             --label "upstream-sync" || true

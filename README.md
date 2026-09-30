@@ -17,12 +17,12 @@ Vendor/           上游规则副本（QX/Surge 原文，upstream.txt 驱动每�
 Rewrite/qx/       重写副本（rewrite.txt 驱动同步，Profile 引用自有链接）
 Scripts/          脚本副本（scripts.txt 驱动同步：task/backend/parser）
 Profile/          QX 整机配置（脱敏模板，引用全部为本仓库 raw 链接）
-scripts/
-  generate.sh     多格式生成器（dist 的唯一生产者）
-  sync_upstream.sh 上游抓取器（raw → API 兜底）
-  dedupe.py       提交前查重（Rules+Filter）
-  stats.py        规则统计
-  update.sh       通用拉取（其他 Linux 设备）
+tools/
+  generate.sh      多格式生成器（dist 的唯一生产者）
+  sync_upstream.sh  上游抓取器（raw → API 兜底）
+  dedupe.py        提交前查重（Rules+Filter）
+  stats.py         规则统计
+  update.sh        通用拉取（其他 Linux 设备）
 dist/             【自动生成，勿手改】qx/ clash/ surge/ smartdns/ dnsmasq/ passwall/
 .github/workflows/
   generate.yml      push 后重新生成 dist
