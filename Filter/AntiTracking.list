@@ -1,9 +1,7 @@
 # 防追踪 / 行为日志上报
 # 说明：statsig.com / sentry.io 为通用遥测，未列入（见 Rules/AI/Claude.list 的讨论）
+# 与 Filter/Ads.list 不重复（dedupe.py 校验）
 xlog.snssdk.com
 mon.snssdk.com
 applog.musical.ly
-track.toutiao.com
-xlog-va.byteoversea.com
-mon11-misc.fqnovel.com
 dig.bdurl.net

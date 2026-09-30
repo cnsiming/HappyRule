@@ -1,8 +1,17 @@
 # ChatGPT / OpenAI → 日本专线节点
+# 2026-10-01 合并自旧仓库 ProxyRules/OpenAI.list，补全登录鉴权/语音/人机验证
 openai.com
+openai.org
 chatgpt.com
+chat.com
+ai.com
 oaistatic.com
 oaiusercontent.com
 openaiusercontent.com
 oaichatgpt.com
 openaiapi-site.azureedge.net
+auth0.com        # 登录鉴权跳转（Auth0 为共用平台，整域走本组会影响其他用 Auth0 的服务，路由器端已改用精确子域）
+livekit.io       # 高级语音 / 实时视频通话
+livekit.cloud
+arkoselabs.com   # 人机验证（不放行会反复弹验证码）
+arkose.ai

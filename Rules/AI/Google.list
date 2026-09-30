@@ -1,9 +1,12 @@
 # Google AI → 默认（香港）即可
 # 注：google.com 主域不在此列，仅 AI 相关子域
+# 2026-10-01 合并自旧仓库 ProxyRules/AI-General.list 的 Gemini 部分
 gemini.google.com
 aistudio.google.com
 notebooklm.google.com
 generativelanguage.googleapis.com
 makersuite.google.com
 deepmind.com
+deepmind.google
 ai.google.dev
+gemini.googleusercontent.com

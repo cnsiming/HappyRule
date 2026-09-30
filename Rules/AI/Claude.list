@@ -1,6 +1,8 @@
 # Claude / Anthropic → 高纯度 IP 节点
+# 2026-10-01 合并自旧仓库 ProxyRules/Claude.list
 # 注意：statsig/sentry 是通用遥测域，放这里 = 这些域全部走 Claude 节点
 anthropic.com
+anthropic.org
 anthropic.systems
 anthropicusercontent.com
 claude.ai
@@ -10,3 +12,6 @@ clau.de
 statsig.com
 statsigapi.net
 sentry.io
+# 可选：客服插件 Intercom（Claude 帮助中心用，不需要保持注释）
+# intercom.io
+# intercomcdn.com
