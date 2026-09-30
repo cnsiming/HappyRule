@@ -1,0 +1,8 @@
+# https://github.com/cnsiming/HappyRule (rules 分支自动生成, 请勿手改)
+HOST-SUFFIX,xlog.snssdk.com,reject
+HOST-SUFFIX,mon.snssdk.com,reject
+HOST-SUFFIX,applog.musical.ly,reject
+HOST-SUFFIX,track.toutiao.com,reject
+HOST-SUFFIX,xlog-va.byteoversea.com,reject
+HOST-SUFFIX,mon11-misc.fqnovel.com,reject
+HOST-SUFFIX,dig.bdurl.net,reject
