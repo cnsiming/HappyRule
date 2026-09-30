@@ -1,0 +1,27 @@
+# 广告补充规则（个人维护）
+# 主列表用外部 anti-AD + AdGuard DNS filter，这里只放它们漏掉的
+# 旁路由/SmartDNS 订阅: dist/smartdns/ads.conf
+
+# 字节跳动/抖音 广告联盟
+ads.snssdk.com
+ad.snssdk.com
+monsetting.snssdk.com
+
+# B站 广告/统计
+cm.bilibili.com
+
+# 快手 广告
+ad.yximgs.com
+e.kuaishou.com
+
+# 爱奇艺 广告配置接口
+t7z.cupid.iqiyi.com
+
+# 芒果TV 广告日志上报
+v2.log.mgtv.com
+
+# 头条/抖音系 追踪与日志（2026-10-01 自 QX 配置验证补充）
+track.toutiao.com
+xlog-va.byteoversea.com
+mon11-misc.fqnovel.com
+isaas.ecombdapi.com

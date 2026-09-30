@@ -1,0 +1,10 @@
+# 国内直连（QX 端语义；路由器端国内本就直连，无需配置）
+# 注：QX 原文为 HOST-KEYWORD,douban —— 关键词规则无法转成域名清单，这里具体化
+taobao.com
+tb.cn
+mi.com
+xiaomi.com
+bilibili.com
+biliapi.net
+douban.com
+doubanio.com
