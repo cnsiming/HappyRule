@@ -1,0 +1,12 @@
+# Claude / Anthropic → 高纯度 IP 节点
+# 注意：statsig/sentry 是通用遥测域，放这里 = 这些域全部走 Claude 节点
+anthropic.com
+anthropic.systems
+anthropicusercontent.com
+claude.ai
+claude.com
+claudeusercontent.com
+clau.de
+statsig.com
+statsigapi.net
+sentry.io

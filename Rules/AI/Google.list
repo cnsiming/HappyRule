@@ -1,0 +1,9 @@
+# Google AI → 默认（香港）即可
+# 注：google.com 主域不在此列，仅 AI 相关子域
+gemini.google.com
+aistudio.google.com
+notebooklm.google.com
+generativelanguage.googleapis.com
+makersuite.google.com
+deepmind.com
+ai.google.dev

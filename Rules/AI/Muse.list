@@ -1,0 +1,9 @@
+# Meta Muse（限美区）→ 美国节点
+# 注意：含 facebook API 域，这些域会全部走 Muse 所在节点
+muse.ai
+meta.com
+graph.facebook.com
+b-graph.facebook.com
+api.facebook.com
+b-api.facebook.com
+www.facebook.com
