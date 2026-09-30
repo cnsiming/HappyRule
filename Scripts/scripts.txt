@@ -4,7 +4,6 @@ Scripts/streaming-ui-check.js https://raw.githubusercontent.com/KOP-XIAO/Quantum
 Scripts/server-info-pure.js https://ddgksf2013.top/scripts/server-info-pure.js
 Scripts/chavy.box.js https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
 Scripts/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-# 以下两项上游已不可用（Yu9191/wloc raw/API/jsDelivr 全部404），脚本不再同步，
-# Profile 中对应 rewrite_local 已移除：
-# Scripts/wloc.js https://raw.githubusercontent.com/Yu9191/wloc/main/dist/wloc.js
-# Scripts/wloc-settings.js https://raw.githubusercontent.com/Yu9191/wloc/main/dist/wloc-settings.js
+# WLOC 上游 Yu9191/wloc 被 GitHub 标记(raw全404)，改从镜像 fork 同步(Gaomengkai/Yu9191-wloc)
+Scripts/wloc.js https://raw.githubusercontent.com/Gaomengkai/Yu9191-wloc/main/dist/wloc.js
+Scripts/wloc-settings.js https://raw.githubusercontent.com/Gaomengkai/Yu9191-wloc/main/dist/wloc-settings.js
