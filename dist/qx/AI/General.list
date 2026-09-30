@@ -1,0 +1,14 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AI/General.list  (自动生成, 源: Rules/AI/General.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,perplexity.ai,DIRECT
+HOST-SUFFIX,pplx.ai,DIRECT
+HOST-SUFFIX,poe.com,DIRECT
+HOST-SUFFIX,poecdn.net,DIRECT
+HOST-SUFFIX,copilot.microsoft.com,DIRECT
+HOST-SUFFIX,githubcopilot.com,DIRECT
+HOST-SUFFIX,copilot.github.com,DIRECT
+HOST-SUFFIX,bingapis.com,DIRECT
+HOST-SUFFIX,x.ai,DIRECT
+HOST-SUFFIX,grok.com,DIRECT
+HOST-SUFFIX,character.ai,DIRECT
+HOST-SUFFIX,characterai.io,DIRECT

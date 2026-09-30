@@ -1,0 +1,11 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/Vendor/blackmatrix7-Claude.list  (自动生成, 源: Vendor/blackmatrix7-Claude.list)
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:01
+# HOST: 1
+# HOST-SUFFIX: 2
+# TOTAL: 3
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai

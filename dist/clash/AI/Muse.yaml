@@ -1,0 +1,9 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/AI/Muse.yaml  (自动生成, 源: Rules/AI/Muse.list)
+payload:
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,graph.facebook.com
+  - DOMAIN-SUFFIX,b-graph.facebook.com
+  - DOMAIN-SUFFIX,api.facebook.com
+  - DOMAIN-SUFFIX,b-api.facebook.com
+  - DOMAIN-SUFFIX,www.facebook.com

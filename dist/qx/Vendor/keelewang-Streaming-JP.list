@@ -1,0 +1,29 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/keelewang-Streaming-JP.list  (自动生成, 源: Vendor/keelewang-Streaming-JP.list)
+# > AbemaTV
+USER-AGENT,AbemaTV*
+HOST-SUFFIX,abema.io
+HOST-SUFFIX,abema.tv
+HOST-SUFFIX,ameba.jp
+HOST-SUFFIX,hayabusa.io
+HOST-KEYWORD,abematv.akamaized.net
+
+# > DMM
+HOST-SUFFIX,dmm.co.jp
+HOST-SUFFIX,dmm.com
+HOST-SUFFIX,dmm-extension.com
+
+# > Hulu / フールー
+HOST-SUFFIX,happyon.jp
+HOST-SUFFIX,hjholdings.jp
+HOST-SUFFIX,hulu.jp
+
+# > niconico
+USER-AGENT,Niconico*
+HOST-SUFFIX,dmc.nico
+HOST-SUFFIX,nicovideo.jp
+HOST-SUFFIX,nimg.jp
+
+# > TVer
+USER-AGENT,TVer-Release*
+HOST-SUFFIX,tver.jp
+HOST,edge.api.brightcove.com

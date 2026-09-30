@@ -1,0 +1,10 @@
+# Scripts 同步清单：task_local / http_backend / rewrite_local / 基础设施脚本
+# 格式: <仓库内路径> <上游URL>
+Scripts/streaming-ui-check.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js
+Scripts/server-info-pure.js https://ddgksf2013.top/scripts/server-info-pure.js
+Scripts/chavy.box.js https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
+Scripts/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+# 以下两项上游已不可用（Yu9191/wloc raw/API/jsDelivr 全部404），脚本不再同步，
+# Profile 中对应 rewrite_local 已移除：
+# Scripts/wloc.js https://raw.githubusercontent.com/Yu9191/wloc/main/dist/wloc.js
+# Scripts/wloc-settings.js https://raw.githubusercontent.com/Yu9191/wloc/main/dist/wloc-settings.js

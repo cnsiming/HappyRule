@@ -1,0 +1,20 @@
+# Rewrite 同步清单：rewrite_remote 引用的外部重写
+# 格式: <仓库内路径> <上游URL>
+Rewrite/qx/TieBaAds.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TieBaAds.conf
+Rewrite/qx/UmetripAds.conf https://ddgksf2013.top/rewrite/UmetripAds.conf
+Rewrite/qx/LuckinCoffeeAds.conf https://ddgksf2013.top/rewrite/LuckinCoffeeAds.conf
+Rewrite/qx/TencentDocAds.conf https://ddgksf2013.top/rewrite/TencentDocAds.conf
+Rewrite/qx/ChinaMobile-NoAds.js https://raw.githubusercontent.com/Yuheng0101/X/refs/heads/main/Scripts/ChinaMobile/NoAds.js
+Rewrite/qx/QiShuiMusicAds.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf
+Rewrite/qx/Applet.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/Applet.conf
+Rewrite/qx/StartUpAds.conf https://ddgksf2013.top/rewrite/StartUpAds.conf
+Rewrite/qx/CaiYunAds.conf https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf
+Rewrite/qx/zhihu.ads.js https://ddgksf2013.top/scripts/zhihu.ads.js
+Rewrite/qx/GoofishAds.conf https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/GoofishAds.conf
+Rewrite/qx/XiaoHongShuAds.conf https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf
+Rewrite/qx/bdpan.ads.js https://ddgksf2013.top/scripts/bdpan.ads.js
+Rewrite/qx/UnblockURLinWeChat.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf
+Rewrite/qx/TikTok-KR.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf
+Rewrite/qx/bilibili-unlock.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Unlock/bilibili.w.sgmodule
+Rewrite/qx/AbeamTV.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Unlock/AbeamTV.sgmodule
+Rewrite/qx/Block-Advertising.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/Advertising.sgmodule

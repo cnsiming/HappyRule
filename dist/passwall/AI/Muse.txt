@@ -1,0 +1,8 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/AI/Muse.txt  (自动生成, 源: Rules/AI/Muse.list; 粘到 PassWall 分流规则域名列表)
+domain:muse.ai
+domain:meta.com
+domain:graph.facebook.com
+domain:b-graph.facebook.com
+domain:api.facebook.com
+domain:b-api.facebook.com
+domain:www.facebook.com

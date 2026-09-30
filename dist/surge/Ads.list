@@ -1,0 +1,13 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/Ads.list  (自动生成, 源: Filter/Ads.list)
+DOMAIN-SUFFIX,ads.snssdk.com
+DOMAIN-SUFFIX,ad.snssdk.com
+DOMAIN-SUFFIX,monsetting.snssdk.com
+DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-SUFFIX,ad.yximgs.com
+DOMAIN-SUFFIX,e.kuaishou.com
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,v2.log.mgtv.com
+DOMAIN-SUFFIX,track.toutiao.com
+DOMAIN-SUFFIX,xlog-va.byteoversea.com
+DOMAIN-SUFFIX,mon11-misc.fqnovel.com
+DOMAIN-SUFFIX,isaas.ecombdapi.com

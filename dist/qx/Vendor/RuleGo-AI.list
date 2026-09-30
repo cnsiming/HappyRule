@@ -1,0 +1,115 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/RuleGo-AI.list  (自动生成, 源: Vendor/RuleGo-AI.list)
+# Apple Intelligence
+HOST-SUFFIX,smoot.apple.com
+HOST,apple-relay.apple.com
+HOST,apple-relay.cloudflare.com
+HOST,apple-relay.fastly-edge.com
+HOST-SUFFIX,gateway.icloud.com
+HOST,cp4.cloudflare.com
+HOST,guzzoni.apple.com
+HOST,gspe1-ssl.ls.apple.com
+HOST-SUFFIX,apps.mzstatic.com
+
+# Anthropic
+# > Claude
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-SUFFIX,claude.com
+HOST-SUFFIX,clau.de
+HOST-SUFFIX,claudemcpclient.com
+HOST-SUFFIX,claudemcpcontent.com
+HOST-SUFFIX,claudeusercontent.com
+HOST,anthropic.auth0.com
+HOST,anthropic.com.cdn.cloudflare.net
+HOST,anthropic-com.ghost.io
+HOST,servd-anthropic-website.b-cdn.net
+
+# OpenAI
+# > ChatGPT
+HOST-SUFFIX,chat.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,livekit.cloud
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,sora.com
+HOST,api.statsig.com
+HOST,api-iam.intercom.io
+HOST,o33249.ingest.sentry.io
+HOST,openaiapi-site.azureedge.net
+HOST-KEYWORD,openaiapi
+HOST-KEYWORD,openaicom
+# OpenRouter
+HOST-SUFFIX,openrouter.ai
+
+# Cloudflare
+# > AI Gateway
+HOST,gateway.ai.cloudflare.com
+
+# Cursor
+HOST-SUFFIX,cursor-cdn.com
+HOST-SUFFIX,cursor.com
+HOST-SUFFIX,cursor.sh
+HOST-SUFFIX,cursorapi.com
+
+# Zed
+HOST-SUFFIX,zed.dev
+
+# Google
+# > AI Studio
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,makersuite.google.com
+HOST,aistudio.google.com
+HOST,alkalicore-pa.clients6.google.com
+HOST,alkalimakersuite-pa.clients6.google.com
+# > Antigravity
+HOST,antigravity.google
+HOST,antigravity-unleash.goog
+# > DeepMind
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+# > Gemini
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
+HOST-SUFFIX,geller-pa.googleapis.com
+HOST-SUFFIX,generativelanguage.googleapis.com
+HOST,ai.google.dev
+HOST,bard.google.com
+HOST,gemini.google.com
+# > NotebookLM
+HOST-KEYWORD,notebooklm.google
+# > Search Labs
+HOST-KEYWORD,labs.google
+
+# Groq
+HOST-SUFFIX,groq.com
+
+# JetBrains AI
+HOST-SUFFIX,grazie.ai
+
+# Meta
+HOST-SUFFIX,meta.ai
+HOST,imagine.meta.com
+
+# Microsoft
+# > Copilot
+HOST,copilot.microsoft.com
+HOST,sydney.bing.com
+HOST,www.bing.com
+# > GitHub Copilot
+HOST-SUFFIX,githubcopilot.com
+
+# Perplexity
+HOST-SUFFIX,perplexity.ai
+HOST-SUFFIX,pplx.ai
+HOST,pplx-res.cloudinary.com
+
+# xAI
+HOST-SUFFIX,grok.com
+HOST-SUFFIX,x.ai
+
+# Doubao
+# > Doubao Dola
+HOST-SUFFIX,cici.com
+HOST-SUFFIX,ciciai.com
+HOST-SUFFIX,dola.com
+HOST-SUFFIX,byteoversea.com

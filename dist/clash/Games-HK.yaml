@@ -1,0 +1,14 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/./Games-HK.yaml  (自动生成, 源: Rules/Games-HK.list)
+payload:
+  - DOMAIN-SUFFIX,kurogame.com
+  - DOMAIN-SUFFIX,wutheringwaves.com
+  - DOMAIN-SUFFIX,kurogames-global.com
+  - DOMAIN-SUFFIX,seasungames.com
+  - DOMAIN-SUFFIX,amazingseasun.com
+  - DOMAIN-SUFFIX,amazingseasuncdn.com
+  - DOMAIN-SUFFIX,snowbreak.com
+  - DOMAIN-SUFFIX,snowbreak.gg
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,neowiz.com
+  - DOMAIN-SUFFIX,browndust2.com
+  - DOMAIN-SUFFIX,akamaihd.net

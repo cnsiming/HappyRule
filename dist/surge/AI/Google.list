@@ -1,0 +1,10 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/AI/Google.list  (自动生成, 源: Rules/AI/Google.list)
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,gemini.googleusercontent.com

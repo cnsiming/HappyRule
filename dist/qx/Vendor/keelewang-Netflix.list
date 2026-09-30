@@ -1,0 +1,14 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/keelewang-Netflix.list  (自动生成, 源: Vendor/keelewang-Netflix.list)
+# > Netflix
+USER-AGENT,Argo*,Netflix
+HOST-SUFFIX,netflix.com
+HOST-SUFFIX,netflix.net
+HOST-SUFFIX,nflxext.com
+HOST-SUFFIX,nflximg.com
+HOST-SUFFIX,nflximg.net
+HOST-SUFFIX,nflxso.net
+HOST-SUFFIX,nflxvideo.net
+HOST-KEYWORD,netflixdnstest
+HOST-KEYWORD,apiproxy-device-prod-nlb-
+HOST-KEYWORD,dualstack.apiproxy-
+# GEOIP,NETFLIX,Netflix

@@ -1,0 +1,17 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/AI/ChatGPT.yaml  (自动生成, 源: Rules/AI/ChatGPT.list)
+payload:
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openai.org
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openaiusercontent.com
+  - DOMAIN-SUFFIX,oaichatgpt.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,auth0.com        # 登录鉴权跳转（Auth0 为共用平台，整域走本组会影响其他用 Auth0 的服务，路由器端已改用精确子域）
+  - DOMAIN-SUFFIX,livekit.io       # 高级语音 / 实时视频通话
+  - DOMAIN-SUFFIX,livekit.cloud
+  - DOMAIN-SUFFIX,arkoselabs.com   # 人机验证（不放行会反复弹验证码）
+  - DOMAIN-SUFFIX,arkose.ai

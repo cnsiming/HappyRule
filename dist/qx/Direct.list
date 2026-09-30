@@ -1,0 +1,10 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Direct.list  (自动生成, 源: Rules/Direct.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tb.cn,DIRECT
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,doubanio.com,DIRECT

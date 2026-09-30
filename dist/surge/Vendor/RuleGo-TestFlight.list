@@ -1,0 +1,4 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/Vendor/RuleGo-TestFlight.list  (自动生成, 源: Vendor/RuleGo-TestFlight.list)
+# TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com

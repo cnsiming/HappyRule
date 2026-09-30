@@ -1,0 +1,13 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AI/Claude.list  (自动生成, 源: Rules/AI/Claude.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,anthropic.com,DIRECT
+HOST-SUFFIX,anthropic.org,DIRECT
+HOST-SUFFIX,anthropic.systems,DIRECT
+HOST-SUFFIX,anthropicusercontent.com,DIRECT
+HOST-SUFFIX,claude.ai,DIRECT
+HOST-SUFFIX,claude.com,DIRECT
+HOST-SUFFIX,claudeusercontent.com,DIRECT
+HOST-SUFFIX,clau.de,DIRECT
+HOST-SUFFIX,statsig.com,DIRECT
+HOST-SUFFIX,statsigapi.net,DIRECT
+HOST-SUFFIX,sentry.io,DIRECT

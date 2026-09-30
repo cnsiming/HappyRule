@@ -1,0 +1,9 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AI/Muse.list  (自动生成, 源: Rules/AI/Muse.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,muse.ai,DIRECT
+HOST-SUFFIX,meta.com,DIRECT
+HOST-SUFFIX,graph.facebook.com,DIRECT
+HOST-SUFFIX,b-graph.facebook.com,DIRECT
+HOST-SUFFIX,api.facebook.com,DIRECT
+HOST-SUFFIX,b-api.facebook.com,DIRECT
+HOST-SUFFIX,www.facebook.com,DIRECT

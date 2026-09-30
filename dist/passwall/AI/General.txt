@@ -1,0 +1,13 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/AI/General.txt  (自动生成, 源: Rules/AI/General.list; 粘到 PassWall 分流规则域名列表)
+domain:perplexity.ai
+domain:pplx.ai
+domain:poe.com
+domain:poecdn.net
+domain:copilot.microsoft.com
+domain:githubcopilot.com
+domain:copilot.github.com
+domain:bingapis.com
+domain:x.ai
+domain:grok.com
+domain:character.ai
+domain:characterai.io

@@ -1,0 +1,9 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/./Direct.txt  (自动生成, 源: Rules/Direct.list; 粘到 PassWall 分流规则域名列表)
+domain:taobao.com
+domain:tb.cn
+domain:mi.com
+domain:xiaomi.com
+domain:bilibili.com
+domain:biliapi.net
+domain:douban.com
+domain:doubanio.com

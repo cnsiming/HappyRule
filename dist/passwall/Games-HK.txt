@@ -1,0 +1,13 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/./Games-HK.txt  (自动生成, 源: Rules/Games-HK.list; 粘到 PassWall 分流规则域名列表)
+domain:kurogame.com
+domain:wutheringwaves.com
+domain:kurogames-global.com
+domain:seasungames.com
+domain:amazingseasun.com
+domain:amazingseasuncdn.com
+domain:snowbreak.com
+domain:snowbreak.gg
+domain:azureedge.net
+domain:neowiz.com
+domain:browndust2.com
+domain:akamaihd.net

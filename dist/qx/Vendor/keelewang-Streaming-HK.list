@@ -1,0 +1,18 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/keelewang-Streaming-HK.list  (自动生成, 源: Vendor/keelewang-Streaming-HK.list)
+# > myTV SUPER
+USER-AGENT,mytv*
+HOST-SUFFIX,mytvsuper.com
+HOST-SUFFIX,tvb.com
+
+# > Now E
+HOST-SUFFIX,nowe.com
+HOST-SUFFIX,nowestatic.com
+
+# > ViuTV
+USER-AGENT,Viu*
+HOST-SUFFIX,viu.com
+HOST-SUFFIX,viu.tv
+HOST,api.viu.now.com
+HOST,d1k2us671qcoau.cloudfront.net
+HOST,d2anahhhmp1ffz.cloudfront.net
+HOST,dfp6rglgjqszk.cloudfront.net

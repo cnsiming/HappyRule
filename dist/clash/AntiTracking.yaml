@@ -1,0 +1,6 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/AntiTracking.yaml  (自动生成, 源: Filter/AntiTracking.list)
+payload:
+  - DOMAIN-SUFFIX,xlog.snssdk.com
+  - DOMAIN-SUFFIX,mon.snssdk.com
+  - DOMAIN-SUFFIX,applog.musical.ly
+  - DOMAIN-SUFFIX,dig.bdurl.net

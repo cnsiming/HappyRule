@@ -1,0 +1,12 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/AI/Claude.txt  (自动生成, 源: Rules/AI/Claude.list; 粘到 PassWall 分流规则域名列表)
+domain:anthropic.com
+domain:anthropic.org
+domain:anthropic.systems
+domain:anthropicusercontent.com
+domain:claude.ai
+domain:claude.com
+domain:claudeusercontent.com
+domain:clau.de
+domain:statsig.com
+domain:statsigapi.net
+domain:sentry.io

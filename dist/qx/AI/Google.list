@@ -1,0 +1,11 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AI/Google.list  (自动生成, 源: Rules/AI/Google.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,gemini.google.com,DIRECT
+HOST-SUFFIX,aistudio.google.com,DIRECT
+HOST-SUFFIX,notebooklm.google.com,DIRECT
+HOST-SUFFIX,generativelanguage.googleapis.com,DIRECT
+HOST-SUFFIX,makersuite.google.com,DIRECT
+HOST-SUFFIX,deepmind.com,DIRECT
+HOST-SUFFIX,deepmind.google,DIRECT
+HOST-SUFFIX,ai.google.dev,DIRECT
+HOST-SUFFIX,gemini.googleusercontent.com,DIRECT

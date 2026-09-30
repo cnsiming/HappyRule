@@ -1,0 +1,46 @@
+name: sync-upstream
+
+on:
+  schedule:
+    # 每周一 03:23 UTC（北京时间 11:23），上游有更新就同步进本仓库
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rules
+
+      - name: Fetch upstream resources
+        id: sync
+        run: bash scripts/sync_upstream.sh
+        continue-on-error: true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Vendor Rewrite Scripts
+          if git diff --cached --quiet; then
+            echo "无上游更新"
+          else
+            git commit -m "sync: 上游资源更新 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Open issue on failure
+        if: steps.sync.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "上游同步失败 $(date -u '+%Y-%m-%d')" \
+            --body "weekly sync-upstream 存在失败项，查看 Actions 日志：scripts/sync_upstream.sh 输出。" \
+            --label "upstream-sync" || true

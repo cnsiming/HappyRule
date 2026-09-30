@@ -1,0 +1,28 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/keelewang-Streaming-TW.list  (自动生成, 源: Vendor/keelewang-Streaming-TW.list)
+# > Bahamut
+USER-AGENT,Anime*
+HOST-SUFFIX,bahamut.com.tw
+HOST-SUFFIX,gamer.com.tw
+HOST,gamer-cds.cdn.hinet.net
+HOST,gamer2-cds.cdn.hinet.net
+
+# > KKTV
+USER-AGENT,KKTV*
+USER-AGENT,com.kktv.ios.kktv*
+HOST-SUFFIX,kktv.com.tw
+HOST-SUFFIX,kktv.me
+HOST,kktv-theater.kk.stream
+
+# > LINE TV
+USER-AGENT,LINE%20TV*
+HOST-SUFFIX,linetv.tw
+HOST,d3c7rimkq79yfu.cloudfront.net
+
+# > LiTV
+HOST-SUFFIX,litv.tv
+HOST,litvfreemobile-hichannel.cdn.hinet.net
+
+# > 台湾好
+USER-AGENT,TaiwanGood*
+HOST-SUFFIX,skyking.com.tw
+HOST,hamifans.emome.net

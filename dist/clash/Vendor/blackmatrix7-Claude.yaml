@@ -1,0 +1,5 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/Vendor/blackmatrix7-Claude.yaml  (自动生成, 源: Vendor/blackmatrix7-Claude.list; 仅域名/IP类规则)
+payload:
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai

@@ -1,0 +1,5 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/./PayPal-US.list  (自动生成, 源: Rules/PayPal-US.list)
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,auth0.com

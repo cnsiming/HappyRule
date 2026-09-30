@@ -1,0 +1,6 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/PayPal-US.list  (自动生成, 源: Rules/PayPal-US.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,paypal.com,DIRECT
+HOST-SUFFIX,paypalobjects.com,DIRECT
+HOST-SUFFIX,identrust.com,DIRECT
+HOST-SUFFIX,auth0.com,DIRECT

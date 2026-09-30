@@ -1,0 +1,5 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/./PayPal-US.txt  (自动生成, 源: Rules/PayPal-US.list; 粘到 PassWall 分流规则域名列表)
+domain:paypal.com
+domain:paypalobjects.com
+domain:identrust.com
+domain:auth0.com

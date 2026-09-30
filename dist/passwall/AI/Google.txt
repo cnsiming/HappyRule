@@ -1,0 +1,10 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/AI/Google.txt  (自动生成, 源: Rules/AI/Google.list; 粘到 PassWall 分流规则域名列表)
+domain:gemini.google.com
+domain:aistudio.google.com
+domain:notebooklm.google.com
+domain:generativelanguage.googleapis.com
+domain:makersuite.google.com
+domain:deepmind.com
+domain:deepmind.google
+domain:ai.google.dev
+domain:gemini.googleusercontent.com

@@ -1,0 +1,17 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AI/ChatGPT.list  (自动生成, 源: Rules/AI/ChatGPT.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,openai.com,DIRECT
+HOST-SUFFIX,openai.org,DIRECT
+HOST-SUFFIX,chatgpt.com,DIRECT
+HOST-SUFFIX,chat.com,DIRECT
+HOST-SUFFIX,ai.com,DIRECT
+HOST-SUFFIX,oaistatic.com,DIRECT
+HOST-SUFFIX,oaiusercontent.com,DIRECT
+HOST-SUFFIX,openaiusercontent.com,DIRECT
+HOST-SUFFIX,oaichatgpt.com,DIRECT
+HOST-SUFFIX,openaiapi-site.azureedge.net,DIRECT
+HOST-SUFFIX,auth0.com        # 登录鉴权跳转（Auth0 为共用平台，整域走本组会影响其他用 Auth0 的服务，路由器端已改用精确子域）,DIRECT
+HOST-SUFFIX,livekit.io       # 高级语音 / 实时视频通话,DIRECT
+HOST-SUFFIX,livekit.cloud,DIRECT
+HOST-SUFFIX,arkoselabs.com   # 人机验证（不放行会反复弹验证码）,DIRECT
+HOST-SUFFIX,arkose.ai,DIRECT

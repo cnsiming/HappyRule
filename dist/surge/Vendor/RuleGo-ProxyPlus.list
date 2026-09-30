@@ -1,0 +1,4 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/Vendor/RuleGo-ProxyPlus.list  (自动生成, 源: Vendor/RuleGo-ProxyPlus.list)
+# Proxy+
+# > Google
+GEOIP,GOOGLE

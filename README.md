@@ -1,54 +1,70 @@
 # HappyRule（rules 分支）
 
-个人规则集：分流策略 / 广告策略 / 防追踪，一处维护，Quantumult X 与旁路由（SmartDNS + PassWall）多端订阅。
+个人规则集：分流 / 广告 / 防追踪，一处维护，多端生成。Quantumult X 为主维护端，自动生成 OpenWrt(SmartDNS/dnsmasq/PassWall)、Clash Verge、Surge 格式。
 
 > 分支约定：`main` 仅作占位，**所有内容在本 `rules` 分支维护，永不合并回 main**。
-> raw 订阅地址一律用 `https://raw.githubusercontent.com/cnsiming/HappyRule/rules/...`
+> raw 订阅基地址：`https://raw.githubusercontent.com/cnsiming/HappyRule/rules/`
 
 ## 目录结构
 
 ```
-Rules/            分流策略（纯域名清单，一域一行，# 开头为注释）
-  AI/             按 AI 产品拆分，各自独立绑节点
-    ChatGPT.list    → 日本专线节点
-    Claude.list     → 高纯度 IP 节点
-    Muse.list       → 美国节点（含 meta/facebook API 域，注意影响面）
-    Google.list     → 默认（香港）即可，不单独建组
-    General.list    → perplexity/poe/grok 等，默认即可
-  Korea.list        韩国服务（Kakao/Naver/Melon/Coupang...）
-  Games-HK.list     游戏港服（注意内含 azureedge/akamaihd 大 CDN）
-  PayPal-US.list    PayPal/美国基础服务
-  Direct.list       国内直连（QX 端语义）
-Filter/           广告与防追踪
-  Ads.list          广告补充（主列表为外部 anti-AD + AdGuard）
-  AntiTracking.list 行为追踪/日志上报
-dist/             【自动生成，勿手改】qx/ 与 smartdns/ 两种格式
-Rewrite/          Quantumult X 重写（待建设）
-Icon/             图标资源（待建设，参考 Qure/Orz-3）
-Profile/          整机配置模板
+Rules/            分流策略源（纯域名，一域一行）——主维护入口
+  AI/             按 AI 产品拆分（ChatGPT/Claude/Muse/Google/General）
+  Korea.list  Games-HK.list  PayPal-US.list  Direct.list
+Filter/           广告与防追踪源（纯域名）
+  Ads.list  AntiTracking.list
+Vendor/           上游规则副本（QX/Surge 原文，upstream.txt 驱动每周同步）
+Rewrite/qx/       重写副本（rewrite.txt 驱动同步，Profile 引用自有链接）
+Scripts/          脚本副本（scripts.txt 驱动同步：task/backend/parser）
+Profile/          QX 整机配置（脱敏模板，引用全部为本仓库 raw 链接）
+scripts/
+  generate.sh     多格式生成器（dist 的唯一生产者）
+  sync_upstream.sh 上游抓取器（raw → API 兜底）
+  dedupe.py       提交前查重（Rules+Filter）
+  stats.py        规则统计
+  update.sh       通用拉取（其他 Linux 设备）
+dist/             【自动生成，勿手改】qx/ clash/ surge/ smartdns/ dnsmasq/ passwall/
+.github/workflows/
+  generate.yml      push 后重新生成 dist
+  sync-upstream.yml 每周一 11:23(北京) 抓取上游更新，有变化自动提交
 ```
 
 ## 各端用法
 
-### Quantumult X
-`[filter_remote]` 订阅（reject 类）：
-```
-https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Ads.list, tag=HappyAds, force-policy=reject, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/AntiTracking.list, tag=HappyTracking, force-policy=reject, update-interval=86400, opt-parser=false, enabled=true
-```
-分流类（Rules/ 下的 list）直接复制进 `[filter_local]`，把行尾策略名换成你自己的策略组。
-整机模板见 `Profile/QuantumultX.conf`。
+### Quantumult X（主）
+整机配置模板：`Profile/QuantumultX.conf`（复制到本地后填回订阅链接与 MITM 证书）。
+其中的 filter_remote / rewrite_remote / task_local 已全部指向本仓库 raw 链接，
+上游更新由 GitHub Actions 每周同步进 Vendor/Rewrite/Scripts，QX 按 update-interval 自动刷新。
 
-### 旁路由（ImmortalWrt SmartDNS）
-每日更新脚本拉取：
+### Clash Verge
+分流（以 AI 为例）：
+```yaml
+rule-providers:
+  ai-chatgpt:
+    type: http
+    url: https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/AI/ChatGPT.yaml
+    path: ./ruleset/ai-chatgpt.yaml
+    interval: 86400
 ```
-https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/smartdns/ads.conf
-https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/smartdns/antitracking.conf
+广告拦截直接引用 `dist/clash/Ads.yaml`、`dist/clash/AntiTracking.yaml`。
+
+### Surge
+```
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/AI/ChatGPT.list,AI-ChatGPT
+RULE-SET,https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/Ads.list,REJECT
 ```
 
-### PassWall 分流
-在分流节点的分流规则里，把 Rules/AI/*.list 的域名粘贴进对应规则的域名列表（或等后续支持 URL 拉取）。
+### OpenWrt 旁路由
+SmartDNS 每日更新脚本拉取（已部署）：
+```
+dist/smartdns/ads.conf  dist/smartdns/antitracking.conf
+```
+分流规则可用 `dist/passwall/AI/ChatGPT.txt`（domain: 格式）粘贴进 PassWall 分流域名列表。
 
 ## 维护方式
 
-只改 `Rules/` 与 `Filter/` 下的源文件，push 后 GitHub Action 自动重新生成 `dist/`。
+1. 改 `Rules/` 或 `Filter/` 下的源文件 → push → Action 自动重新生成 `dist/`
+2. push 前运行 `python3 scripts/dedupe.py` 查重
+3. 上游有更新不用管：每周一自动同步；想立即同步可在 Actions 里手动运行 `sync-upstream`
+4. 新增上游引用：在对应 `*.txt` 清单加一行即可

@@ -1,0 +1,39 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/keelewang-Streaming-US.list  (自动生成, 源: Vendor/keelewang-Streaming-US.list)
+# > Apple Music TV
+HOST,tv.applemusic.com
+
+# > encoreTVB
+USER-AGENT,encoreTVB*
+HOST-SUFFIX,encoretvb.com
+HOST,edge.api.brightcove.com
+HOST,bcbolt446c5271-a.akamaihd.net
+
+# > HBO NOW & Max
+USER-AGENT,HBO%20NOW*
+HOST-SUFFIX,hbo.com
+HOST-SUFFIX,hbogo.com
+HOST-SUFFIX,hbonow.com
+USER-AGENT,HBOMAX*
+HOST-SUFFIX,hbomax.com
+HOST-SUFFIX,hbomaxcdn.com
+
+# > Hulu
+HOST-SUFFIX,hulu.com
+HOST-SUFFIX,huluim.com
+HOST-SUFFIX,hulustream.com
+
+# > Paramount+
+USER-AGENT,PPlus*
+HOST-SUFFIX,cbsi.com
+HOST-SUFFIX,cbsaavideo.com
+HOST-SUFFIX,cbsivideo.com
+HOST-SUFFIX,paramountplus.com
+HOST-SUFFIX,pplusstatic.com
+HOST,cbsi.live.ott.irdeto.com
+HOST,cbsplaylistserver.aws.syncbak.com
+HOST,cbsservice.aws.syncbak.com
+HOST,link.theplatform.com
+
+# > PBS
+USER-AGENT,PBS*
+HOST-SUFFIX,pbs.org

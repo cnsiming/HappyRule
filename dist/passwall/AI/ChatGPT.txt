@@ -1,0 +1,16 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/passwall/AI/ChatGPT.txt  (自动生成, 源: Rules/AI/ChatGPT.list; 粘到 PassWall 分流规则域名列表)
+domain:openai.com
+domain:openai.org
+domain:chatgpt.com
+domain:chat.com
+domain:ai.com
+domain:oaistatic.com
+domain:oaiusercontent.com
+domain:openaiusercontent.com
+domain:oaichatgpt.com
+domain:openaiapi-site.azureedge.net
+domain:auth0.com        # 登录鉴权跳转（Auth0 为共用平台，整域走本组会影响其他用 Auth0 的服务，路由器端已改用精确子域）
+domain:livekit.io       # 高级语音 / 实时视频通话
+domain:livekit.cloud
+domain:arkoselabs.com   # 人机验证（不放行会反复弹验证码）
+domain:arkose.ai

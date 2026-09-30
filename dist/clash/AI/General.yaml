@@ -1,0 +1,14 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/AI/General.yaml  (自动生成, 源: Rules/AI/General.list)
+payload:
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,poecdn.net
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,copilot.github.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,characterai.io

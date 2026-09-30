@@ -1,0 +1,30 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/RuleGo-DirectPlus.list  (自动生成, 源: Vendor/RuleGo-DirectPlus.list)
+# Direct+
+HOST,app.adjust.com
+HOST,app.appsflyer.com
+HOST,bdtj.tagtic.cn
+# > Alibaba
+HOST,log.mmstat.com
+HOST,sycm.mmstat.com
+# ---(Alphabet)---
+HOST-SUFFIX,blog.google
+HOST,ci.android.com
+HOST,clientservices.googleapis.com
+HOST,dl.google.com
+HOST,dl.l.google.com
+HOST,redirector.gvt1.com
+HOST,update.googleapis.com
+# > Google Flights
+HOST-SUFFIX,googletraveladservices.com
+HOST-SUFFIX,googletraveladservices-cn.com
+# ------
+# > Tencent
+HOST,fairplay.l.qq.com
+HOST,livew.l.qq.com
+HOST,vd.l.qq.com
+HOST,vi.l.qq.com
+# > Strava
+HOST,analytics.strava.com
+# > Umeng
+HOST,msg.umeng.com
+HOST,msg.umengcloud.com

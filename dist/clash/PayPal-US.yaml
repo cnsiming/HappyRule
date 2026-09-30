@@ -1,0 +1,6 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/./PayPal-US.yaml  (自动生成, 源: Rules/PayPal-US.list)
+payload:
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,auth0.com

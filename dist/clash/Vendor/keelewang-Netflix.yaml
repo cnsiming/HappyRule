@@ -1,0 +1,12 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/Vendor/keelewang-Netflix.yaml  (自动生成, 源: Vendor/keelewang-Netflix.list; 仅域名/IP类规则)
+payload:
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-KEYWORD,netflixdnstest
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+  - DOMAIN-KEYWORD,dualstack.apiproxy-

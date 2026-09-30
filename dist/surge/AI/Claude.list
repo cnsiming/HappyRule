@@ -1,0 +1,12 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/AI/Claude.list  (自动生成, 源: Rules/AI/Claude.list)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropic.org
+DOMAIN-SUFFIX,anthropic.systems
+DOMAIN-SUFFIX,anthropicusercontent.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,sentry.io

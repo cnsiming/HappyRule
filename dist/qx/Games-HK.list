@@ -1,0 +1,14 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Games-HK.list  (自动生成, 源: Rules/Games-HK.list)
+# 行尾 DIRECT 为占位策略，替换为你的策略组名
+HOST-SUFFIX,kurogame.com,DIRECT
+HOST-SUFFIX,wutheringwaves.com,DIRECT
+HOST-SUFFIX,kurogames-global.com,DIRECT
+HOST-SUFFIX,seasungames.com,DIRECT
+HOST-SUFFIX,amazingseasun.com,DIRECT
+HOST-SUFFIX,amazingseasuncdn.com,DIRECT
+HOST-SUFFIX,snowbreak.com,DIRECT
+HOST-SUFFIX,snowbreak.gg,DIRECT
+HOST-SUFFIX,azureedge.net,DIRECT
+HOST-SUFFIX,neowiz.com,DIRECT
+HOST-SUFFIX,browndust2.com,DIRECT
+HOST-SUFFIX,akamaihd.net,DIRECT

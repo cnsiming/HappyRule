@@ -1,0 +1,9 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/surge/./Direct.list  (自动生成, 源: Rules/Direct.list)
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tb.cn
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com

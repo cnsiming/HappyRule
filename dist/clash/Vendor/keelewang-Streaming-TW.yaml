@@ -1,0 +1,15 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/Vendor/keelewang-Streaming-TW.yaml  (自动生成, 源: Vendor/keelewang-Streaming-TW.list; 仅域名/IP类规则)
+payload:
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN,gamer-cds.cdn.hinet.net
+  - DOMAIN,gamer2-cds.cdn.hinet.net
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,litv.tv
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,skyking.com.tw
+  - DOMAIN,hamifans.emome.net

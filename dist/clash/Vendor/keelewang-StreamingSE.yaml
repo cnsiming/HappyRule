@@ -1,0 +1,18 @@
+# https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/clash/Vendor/keelewang-StreamingSE.yaml  (自动生成, 源: Vendor/keelewang-StreamingSE.list; 仅域名/IP类规则)
+payload:
+  - DOMAIN,api.biliapi.com
+  - DOMAIN,api.biliapi.net
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,app.biliapi.com
+  - DOMAIN,app.biliapi.net
+  - DOMAIN,app.bilibili.com
+  - DOMAIN,grpc.biliapi.net
+  - DOMAIN,m.bilibili.com
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
+  - DOMAIN,www.bilibili.com
+  - DOMAIN-KEYWORD,cn-hk-eq-bcache-
+  - DOMAIN,cache.video.iqiyi.com
+  - IP-CIDR,116.211.202.206/32,no-resolve
+  - IP-CIDR,116.211.202.216/32,no-resolve
+  - DOMAIN-SUFFIX,api.mgtv.com
+  - DOMAIN,mobileso.bz.mgtv.com
