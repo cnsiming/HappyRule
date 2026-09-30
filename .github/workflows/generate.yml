@@ -1,0 +1,41 @@
+name: generate-dist
+
+on:
+  push:
+    branches: [rules]
+    paths:
+      - 'Filter/**'
+      - '.github/workflows/generate.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rules
+
+      - name: Generate dist from Filter/*.list
+        run: |
+          set -e
+          mkdir -p dist/smartdns dist/qx
+          for f in Filter/*.list; do
+            name=$(basename "$f" .list)
+            lower=$(echo "$name" | tr 'A-Z' 'a-z')
+            grep -vE '^[[:space:]]*(#|$)' "$f" | sed 's|^[[:space:]]*||' | sed 's|^\(.*\)$|address /\1/#|' > "dist/smartdns/$lower.conf"
+            {
+              echo "# https://github.com/cnsiming/HappyRule (rules 分支自动生成, 请勿手改)"
+              grep -vE '^[[:space:]]*(#|$)' "$f" | sed 's|^[[:space:]]*||' | sed 's|^\(.*\)$|HOST-SUFFIX,\1,reject|'
+            } > "dist/qx/$name.list"
+          done
+
+      - name: Commit dist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git diff --cached --quiet && echo "dist unchanged" || git commit -m "chore: regenerate dist [skip ci]"
+          git push
