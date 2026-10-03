@@ -39,6 +39,16 @@ fetch_one() {
         FAILED=1
         return
     fi
+    # 内容类型校验：上游可能把 302 后的首页 HTML 当文件返回（如 ddgksf2013.top 旧路径），拒绝落盘
+    if head -c 200 "$TMP" | grep -qiE '<!doctype html|<html[ >]'; then
+        echo "HTML    $dest  ($url)  上游返回了网页而非规则文件"
+        FAILED=1
+        return
+    fi
+    # 落盘前应用 URL 补丁（把上游文件里指向死链的脚本地址改指本仓库自托管副本）
+    if [ -f tools/sync-patches.sed ]; then
+        sed -i -f tools/sync-patches.sed "$TMP" 2>/dev/null || true
+    fi
     if cmp -s "$TMP" "$dest" 2>/dev/null; then
         echo "same    $dest"
     else

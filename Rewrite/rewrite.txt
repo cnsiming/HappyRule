@@ -1,20 +1,31 @@
 # Rewrite 同步清单：rewrite_remote 引用的外部重写
 # 格式: <仓库内路径> <上游URL>
+# 2026-10 修复：ddgksf2013.top 的 /rewrite/ /scripts/ 静态路径已下线（一律 302 到首页），
+# 原站独有的文件改从社区镜像 ifflagged/Romeo 同步（已逐个验证内容真实）。
+# 镜像中仍指向死链 ddgksf2013.top/scripts/ 的脚本 URL，由 tools/sync-patches.sed 统一改指本仓库自托管副本。
+# ---------------------------------------------------------------------------
+# 上游仍在 GitHub 的（ddgksf2013/Rewrite 等，直连有效）
 Rewrite/qx/TieBaAds.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TieBaAds.conf
-Rewrite/qx/UmetripAds.conf https://ddgksf2013.top/rewrite/UmetripAds.conf
-Rewrite/qx/LuckinCoffeeAds.conf https://ddgksf2013.top/rewrite/LuckinCoffeeAds.conf
-Rewrite/qx/TencentDocAds.conf https://ddgksf2013.top/rewrite/TencentDocAds.conf
 Rewrite/qx/ChinaMobile-NoAds.js https://raw.githubusercontent.com/Yuheng0101/X/refs/heads/main/Scripts/ChinaMobile/NoAds.js
 Rewrite/qx/QiShuiMusicAds.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf
 Rewrite/qx/Applet.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/Applet.conf
-Rewrite/qx/StartUpAds.conf https://ddgksf2013.top/rewrite/StartUpAds.conf
 Rewrite/qx/CaiYunAds.conf https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf
-Rewrite/qx/zhihu.ads.js https://ddgksf2013.top/scripts/zhihu.ads.js
 Rewrite/qx/GoofishAds.conf https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/GoofishAds.conf
-Rewrite/qx/XiaoHongShuAds.conf https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf
-Rewrite/qx/bdpan.ads.js https://ddgksf2013.top/scripts/bdpan.ads.js
 Rewrite/qx/UnblockURLinWeChat.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf
 Rewrite/qx/TikTok-KR.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf
 Rewrite/qx/bilibili-unlock.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Unlock/bilibili.w.sgmodule
 Rewrite/qx/AbeamTV.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Unlock/AbeamTV.sgmodule
 Rewrite/qx/Block-Advertising.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/Advertising.sgmodule
+# 原 ddgksf2013.top 独有文件 -> ifflagged/Romeo 镜像（QX 格式 conf）
+Rewrite/qx/StartUpAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/QuantumultX/ddgksf2013/StartUpAds.conf
+Rewrite/qx/LuckinCoffeeAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/QuantumultX/ddgksf2013/LuckinCoffeeAds.conf
+Rewrite/qx/TencentDocAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/QuantumultX/ddgksf2013/TencentDocAds.conf
+Rewrite/qx/XiaoHongShuAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/Official/XiaoHongShuAds.conf
+# 原站脚本（conf 内嵌规则自指，sync-patches.sed 会把脚本 URL 改到本仓库）
+Rewrite/qx/zhihu.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/Official/zhihu.ads.js
+Rewrite/qx/bdpan.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/Official/bdpan.ads.js
+# 航旅纵横：原站只有 QX conf 死链，镜像的 Surge 模块可用（QX 订阅需 opt-parser=true）
+Rewrite/qx/UmetripAds.sgmodule https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/UmetripAds.sgmodule
+# conf 引用但原站已死的配套脚本 -> Romeo 镜像，自托管到本仓库（sync-patches.sed 负责改指）
+Rewrite/qx/luckincoffee.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/ddgksf2013/LuckinCoffeeAds/ddgksf2013.top_luckincoffee.ads.js
+Rewrite/qx/redbook.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JS/ddgksf2013/XiaoHongShuAds/ddgksf2013.top_redbook.ads.js

@@ -1,7 +1,7 @@
 # Scripts 同步清单：task_local / http_backend / rewrite_local / 基础设施脚本
 # 格式: <仓库内路径> <上游URL>
+# 2026-10: server-info-pure.js 上游(ddgksf2013.top)已下线且全网无有效镜像，条目移除。
 Scripts/streaming-ui-check.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js
-Scripts/server-info-pure.js https://ddgksf2013.top/scripts/server-info-pure.js
 Scripts/chavy.box.js https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
 Scripts/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 # WLOC 上游 Yu9191/wloc 被 GitHub 标记(raw全404)，改从镜像 fork 同步(Gaomengkai/Yu9191-wloc)
