@@ -36,6 +36,16 @@ dist/             【自动生成，勿手改】qx/ clash/ surge/ smartdns/ dnsm
 其中的 filter_remote / rewrite_remote / task_local 已全部指向本仓库 raw 链接，
 上游更新由 GitHub Actions 每周同步进 Vendor/Rewrite/Scripts，QX 按 update-interval 自动刷新。
 
+### iOS 浏览器脚本（Userscripts）
+**iOS 上 Chrome 无法使用脚本**（Apple 强制所有 iOS 浏览器使用 WebKit 内核，Chrome iOS 没有扩展体系）。
+请使用 **Safari + Userscripts**（App Store 免费）或 Stay：
+1. 与 PC 端一样，把 `.user.js` 文件从电脑传到 iPhone（文件 App / AirDrop）
+2. 在 Userscripts 中导入该脚本，按提示在「设置 → Safari → 扩展」里启用
+3. 用 Safari 打开目标站点，脚本自动注入运行
+
+本仓库 `Rewrite/qx/` 下的 4 条解锁规则（ai短剧/海角/妻社QS/糖心）是 QX 网络重写移植版，
+仅供 QX 订阅；iOS 上直接使用原版 userscript 请走上述 Userscripts + Safari 方式。
+
 ### Clash Verge
 分流（以 AI 为例）：
 ```yaml
