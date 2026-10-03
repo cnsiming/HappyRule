@@ -449,13 +449,16 @@ qx = """# ===================================================================
 # 切勿对整个 *.top 开 MITM，除非你清楚风险。
 # ===================================================================
 
-hostname = haijiao.com, *.haijiao.com
+[rewrite_local]
 
 # 响应改写：会员解锁 / 广告清除 / 付费图片还原 / VIP 伪造
 %s url script-response-body %s
 
 # 请求改写：观影券附件请求体改写（resource_type video_center -> 免费 topic，勿单独关闭）
 %s url script-request-body %s
+
+[mitm]
+hostname = haijiao.com, *.haijiao.com
 """ % (SCRIPT_URL, RESP_RE, SCRIPT_URL, REQ_RE, SCRIPT_URL)
 with io.open(os.path.join(OUT_DIR, "haijiao.conf"), "w", encoding="utf-8", newline="\n") as f:
     f.write(qx)

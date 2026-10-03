@@ -343,13 +343,16 @@ qx = """# ===================================================================
 # 需要完整解锁请用 Surge 版模块。广告清除与 VIP 伪造全平台可用。
 # ===================================================================
 
-hostname = txh55.example.com
+[rewrite_local]
 
 # 响应改写：VIP 伪造 / 广告清除（movie/detail 在 QX 上仅本地广告清除）
 %s url script-response-body %s
 
 # 请求改写：缓存 movie/detail POST 请求体（供 Surge 完整版换取解锁结果；QX 上无开销）
 %s url script-request-body %s
+
+[mitm]
+hostname = txh55.example.com
 """ % (SCRIPT_URL, API_RE, SCRIPT_URL, DETAIL_RE, SCRIPT_URL)
 with io.open(os.path.join(OUT_DIR, "tangxin-unlock.conf"), "w", encoding="utf-8", newline="\n") as f:
     f.write(qx)

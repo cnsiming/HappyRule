@@ -239,7 +239,7 @@ qx = """# ===================================================================
 #       播放免费线路构造依赖请求阶段缓存，两条脚本规则都需要启用。
 # ===================================================================
 
-hostname = %s
+[rewrite_local]
 
 # 响应改写：会员解锁 / 广告策略 / 价格清零 / 播放线路
 %s url script-response-body %s
@@ -249,7 +249,10 @@ hostname = %s
 
 # 黄果系广告网络域名直连拦截（对应 userscript 的 hdAdBlockFetchUrl）
 ^https?:\\/\\/([\\w-]+\\.)?(%s)\\/ url reject-200
-""" % (len(DOMAINS), SCRIPT_URL, HOSTNAME_LINE, RESP_RE, SCRIPT_URL, PLAY_RE, SCRIPT_URL, AD_RE)
+
+[mitm]
+hostname = %s
+""" % (len(DOMAINS), SCRIPT_URL, RESP_RE, SCRIPT_URL, PLAY_RE, SCRIPT_URL, AD_RE, HOSTNAME_LINE)
 with io.open(os.path.join(OUT_DIR, "ai-duanju.conf"), "w", encoding="utf-8", newline="\n") as f:
     f.write(qx)
 print("QX conf written")
