@@ -25,7 +25,7 @@ Rewrite/qx/XiaoHongShuAds.conf https://raw.githubusercontent.com/ifflagged/Romeo
 Rewrite/qx/zhihu.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/Official/zhihu.ads.js
 Rewrite/qx/bdpan.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/Official/bdpan.ads.js
 # 航旅纵横：原站只有 QX conf 死链，镜像的 Surge 模块可用（QX 订阅需 opt-parser=true）
-Rewrite/qx/UmetripAds.sgmodule https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/UmetripAds.sgmodule
+Rewrite/qx/UmetripAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/Surge/ddgksf2013/UmetripAds.sgmodule
 # conf 引用但原站已死的配套脚本 -> Romeo 镜像，自托管到本仓库（sync-patches.sed 负责改指）
 Rewrite/qx/luckincoffee.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/ddgksf2013/LuckinCoffeeAds/ddgksf2013.top_luckincoffee.ads.js
 Rewrite/qx/redbook.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JS/ddgksf2013/XiaoHongShuAds/ddgksf2013.top_redbook.ads.js
