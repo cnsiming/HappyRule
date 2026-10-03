@@ -1,0 +1,13 @@
+#!name=妻社(QS)解锁
+#!desc=妻社/QS 系列站点 VIP 解锁 · 网络重写版（由 userscript v1.5.0 移植）。纯本地补丁，全平台功能一致。站点为动态域名族，使用前需把实际访问域名加入 MITM（见模块注释）。
+#!author=彭于晏+ayase（移植：网络重写版）
+#!version=1.5.0-net.1
+#!system=ios,mac
+
+[Script]
+妻社·响应 = type=http-response,pattern=^https?:\/\/[^\/]+\/(?:source\/plugin\/qsts_app\/index\.php|mserver)(?:\/|$|\?),requires-body=1,timeout=15,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/qs-unlock.js
+妻社·搜索轮换 = type=http-request,pattern=^https?:\/\/[^\/]+\/(?:source\/plugin\/qsts_app\/index\.php|mserver)(?:\/|$|\?),timeout=10,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/qs-unlock.js
+
+[MITM]
+# 把实际访问的妻社域名追加到下一行（动态域名族，无法预置），例如：
+# hostname = %APPEND% qishegg56.com, www.qishegg56.com

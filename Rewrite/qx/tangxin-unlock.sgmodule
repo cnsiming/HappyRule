@@ -1,0 +1,13 @@
+#!name=糖心Vlog解锁
+#!desc=糖心Vlog(txh 数字 .com) 会员解锁 · 网络重写版（由 userscript v2.5.5 移植）。Surge 完整支持电影详情播放解锁（作者解析服务）；域名动态，使用前需把实际访问域名加入 MITM。
+#!author=ayase+baby（移植：网络重写版）
+#!version=2.5.5-net.1
+#!system=ios,mac
+
+[Script]
+糖心·响应 = type=http-response,pattern=^https?:\/\/(?:[a-z0-9-]+\.)*txh\d+\.com\/h5\/(?:user\/info|system\/info|movie\/(?:detail|block|search))(?:\?|$),requires-body=1,timeout=30,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/tangxin-unlock.js
+糖心·详情请求体 = type=http-request,pattern=^https?:\/\/(?:[a-z0-9-]+\.)*txh\d+\.com\/h5\/movie\/detail(?:\?|$),requires-body=1,timeout=10,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/tangxin-unlock.js
+
+[MITM]
+# 把实际访问的糖心域名追加到下一行（txh 数字 .com 动态族），例如：
+# hostname = %APPEND% txh55.com, www.txh55.com
