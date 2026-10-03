@@ -1,0 +1,34 @@
+name: generate-dist
+
+on:
+  push:
+    branches: [rules]
+    paths:
+      - 'Filter/**'
+      - 'Rules/**'
+      - 'Vendor/**'
+      - 'tools/generate.sh'
+      - '.github/workflows/generate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rules
+
+      - name: Generate dist (qx/clash/surge/smartdns/dnsmasq/passwall)
+        run: bash tools/generate.sh
+
+      - name: Commit dist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git diff --cached --quiet && echo "dist unchanged" || git commit -m "chore: regenerate dist [skip ci]"
+          git push
