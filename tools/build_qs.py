@@ -199,16 +199,13 @@ qx = """# ===================================================================
 # 用法：两条脚本规则都要启用（请求阶段负责搜索 deviceid 轮换，响应阶段负责解锁）
 # ===================================================================
 
-[rewrite_local]
+hostname = qishe.example.com
 
 # 响应改写：VIP 伪造 / 付费解锁 / 广告清除
 %s url script-response-body %s
 
 # 请求改写：搜索接口 deviceid 轮换（每 deviceid 2 次额度，自动换新）
 %s url script-request-header %s
-
-[mitm]
-hostname = qishe.example.com
 """ % (SCRIPT_URL, API_RE, SCRIPT_URL, API_RE, SCRIPT_URL)
 with io.open(os.path.join(OUT_DIR, "qs-unlock.conf"), "w", encoding="utf-8", newline="\n") as f:
     f.write(qx)
