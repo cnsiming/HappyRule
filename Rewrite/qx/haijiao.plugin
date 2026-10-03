@@ -1,0 +1,13 @@
+#!name=海角视频解锁
+#!desc=海角视频(haijiao.com) 会员解锁 · 网络重写版（由 userscript v1.4.5 移植）。Loon 重写脚本无法发起出站 HTTP：视频/音频真实地址解析与 key 还原不可用，图片帖/短视频/VIP 伪造/广告清除不受影响。
+#!author=ayase+baby（移植：网络重写版）
+#!version=1.4.5-net.1
+#!system=ios
+
+[Script]
+http-response ^https?:\/\/(?:(?:[\w-]+\.)*haijiao\.com|(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top)\/api\/(?:banner/banner_list|attachment|topic/\d+|video-center/video/(?:detail|list|related-list)|video/(?:checkVideoCanPlay|user_list|list|\d+))(?:\?|$) script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js, requires-body=true, timeout=20, tag=海角视频·响应
+http-request ^https?:\/\/(?:(?:[\w-]+\.)*haijiao\.com|(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top)\/api\/attachment(?:\?|$) script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js, requires-body=true, timeout=15, tag=海角视频·附件请求
+
+[MITM]
+hostname = haijiao.com, *.haijiao.com
+# 镜像站（动态 .top 域名）请按需追加

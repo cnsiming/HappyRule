@@ -1,0 +1,16 @@
+#!name=海角视频解锁
+#!desc=海角视频(haijiao.com 及 .top 镜像) 会员解锁 · 网络重写版（由 userscript v1.4.5 移植）。完整功能含真实地址解析与 m3u8 key 还原；镜像域名为动态 .top 域名，使用镜像站需自行把镜像域名加入 MITM（不建议对整个 *.top 开 MITM）。
+#!author=ayase+baby（移植：网络重写版）
+#!version=1.4.5-net.1
+#!system=ios,mac
+
+[Script]
+海角视频·响应 = type=http-response,pattern=^https?:\/\/(?:(?:[\w-]+\.)*haijiao\.com|(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top)\/api\/(?:banner/banner_list|attachment|topic/\d+|video-center/video/(?:detail|list|related-list)|video/(?:checkVideoCanPlay|user_list|list|\d+))(?:\?|$),requires-body=1,timeout=20,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js
+海角视频·附件请求 = type=http-request,pattern=^https?:\/\/(?:(?:[\w-]+\.)*haijiao\.com|(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top)\/api\/attachment(?:\?|$),requires-body=1,timeout=15,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js
+# 以下两条需镜像域名已在 MITM 中才生效（m3u8 观察 + 加密 key 异或还原）：
+海角视频·m3u8观察 = type=http-response,pattern=^https?:\/\/(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top\/.*\.m3u8(?:\?|$),requires-body=1,timeout=15,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js
+海角视频·key还原 = type=http-response,pattern=^https?:\/\/(?:[\w-]+\.)*(?:[0-9a-fA-F]{8,32}|hj\d+)\.top\/.*\.key(?:\?|$),requires-body=1,binary-body-mode=1,timeout=20,script-path=https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/haijiao-unlock.js
+
+[MITM]
+hostname = %APPEND% haijiao.com, *.haijiao.com
+# 镜像站（动态 .top 域名）请按需追加，例如：hostname = %APPEND% hj123456.top
