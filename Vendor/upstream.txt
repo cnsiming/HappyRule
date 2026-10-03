@@ -22,3 +22,4 @@ Vendor/blackmatrix7-OpenAI.list https://raw.githubusercontent.com/blackmatrix7/i
 Vendor/blackmatrix7-Claude.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Claude/Claude.list
 Vendor/Semporia-TikTok.list https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list
 Vendor/Semporia-China.list https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/China.list
+Vendor/RuleGo-StreamingNotCN.list https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list

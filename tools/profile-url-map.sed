@@ -40,3 +40,14 @@ s|https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/
 s|https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/streaming-ui-check.js|
 s|https://ddgksf2013.top/scripts/server-info-pure.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/server-info-pure.js|
 s|https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/chavy.box.js|
+s|https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/iOSUpdate.sgmodule|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/iOSUpdate.sgmodule|
+s|https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/dist/qx/Vendor/RuleGo-StreamingNotCN.list|
+s|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%2@X/TikTok-TW.conf|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/TikTok-TW.conf|
+s|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%2@X/TikTok-JP.conf|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/TikTok-JP.conf|
+s|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%2@X/TikTok-KR.conf|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/TikTok-KR.conf|
+s|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%2@X/TikTok-US.conf|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/TikTok-US.conf|
+s|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/YouTube.conf|
+s|https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/resource-parser.js|
+s|https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/resource-parser.js|
+s|https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/wloc.js|
+s|https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc-settings.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/wloc-settings.js|

@@ -29,3 +29,8 @@ Rewrite/qx/UmetripAds.conf https://raw.githubusercontent.com/ifflagged/Romeo/mai
 # conf 引用但原站已死的配套脚本 -> Romeo 镜像，自托管到本仓库（sync-patches.sed 负责改指）
 Rewrite/qx/luckincoffee.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/ddgksf2013/LuckinCoffeeAds/ddgksf2013.top_luckincoffee.ads.js
 Rewrite/qx/redbook.ads.js https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JS/ddgksf2013/XiaoHongShuAds/ddgksf2013.top_redbook.ads.js
+Rewrite/qx/iOSUpdate.sgmodule https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/iOSUpdate.sgmodule
+Rewrite/qx/TikTok-TW.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf
+Rewrite/qx/TikTok-JP.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-JP.conf
+Rewrite/qx/TikTok-US.conf https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf
+Rewrite/qx/YouTube.conf https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf
