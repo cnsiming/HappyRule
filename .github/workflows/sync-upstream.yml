@@ -2,8 +2,8 @@ name: sync-upstream
 
 on:
   schedule:
-    # 每周一 03:23 UTC（北京时间 11:23），上游有更新就同步进本仓库
-    - cron: '23 3 * * 1'
+    # 北京时间每周一凌晨 04:00（UTC 周日 20:00），上游有更新且内容有效才同步进本仓库
+    - cron: '0 20 * * 0'
   workflow_dispatch:
 
 permissions:
