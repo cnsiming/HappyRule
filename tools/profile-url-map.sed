@@ -51,3 +51,4 @@ s|https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource
 s|https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/resource-parser.js|
 s|https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/wloc.js|
 s|https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc-settings.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/wloc-settings.js|
+s|https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Scripts/IP.js|
