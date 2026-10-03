@@ -1,6 +1,6 @@
 # Scripts 同步清单：task_local / http_backend / rewrite_local / 基础设施脚本
 # 格式: <仓库内路径> <上游URL>
-# 2026-10: server-info-pure.js 上游(ddgksf2013.top)已下线且全网无有效镜像，条目移除。
+# 2026-10: server-info-pure.js 原上游 ddgksf2013.top 已下线；改从社区备份 reverie1988/Scripts 同步（2026-04 维护版，备用镜像 BOBOLAOSHIV587/Rules）
 Scripts/streaming-ui-check.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js
 Scripts/chavy.box.js https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
 Scripts/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
@@ -8,3 +8,4 @@ Scripts/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/Quantumult
 Scripts/wloc.js https://raw.githubusercontent.com/Gaomengkai/Yu9191-wloc/main/dist/wloc.js
 Scripts/wloc-settings.js https://raw.githubusercontent.com/Gaomengkai/Yu9191-wloc/main/dist/wloc-settings.js
 Scripts/IP.js https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
+Scripts/server-info-pure.js https://raw.githubusercontent.com/reverie1988/Scripts/main/QX/server-info-pure.js
