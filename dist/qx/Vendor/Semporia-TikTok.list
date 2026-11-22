@@ -2,7 +2,7 @@
 # ================================================
 # TikTok
 # Includes: TikTok
-# LastUpdated: 2026-07-10
+# LastUpdated: 2026-10-26
 # ================================================
 HOST,lf16-effectcdn.byteeffecttos-g.com
 HOST,lf16-pkgcdn.pitaya-clientai.com
@@ -15,6 +15,9 @@ HOST-SUFFIX,bytegecko-i18n.com
 HOST-SUFFIX,byteintlapi.com
 HOST-SUFFIX,byteoversea.com
 HOST-SUFFIX,capcut.com
+HOST-SUFFIX,capcutapi.com
+HOST-SUFFIX,capcutapi.us
+HOST-SUFFIX,capcutstatic.com
 HOST-SUFFIX,ibytedtos.com
 HOST-SUFFIX,ibyteimg.com
 HOST-SUFFIX,ipstatp.com

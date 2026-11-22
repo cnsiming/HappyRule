@@ -88,6 +88,9 @@ HOST-SUFFIX,grazie.ai
 
 # Meta
 HOST-SUFFIX,meta.ai
+HOST-SUFFIX,muse.ai
+DOMAIN-WILDCARD,scontent-*.xx.fbcdn.net
+HOST,graph.facebook.com
 HOST,imagine.meta.com
 
 # Microsoft

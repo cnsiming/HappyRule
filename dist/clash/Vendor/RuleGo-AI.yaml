@@ -60,6 +60,8 @@ payload:
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN,graph.facebook.com
   - DOMAIN,imagine.meta.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,sydney.bing.com
