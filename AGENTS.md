@@ -10,7 +10,7 @@
 - GitHub 授权异常时主动提醒重新授权或补齐权限，保留待同步成果；不得自动改用桌面控制。
 - WLOC 已按用户当前 iOS 27 环境停用；除非用户要求，不重新启用规则、MITM 主机或自动同步。
 - TikTok/PineDrama 共享 API/CDN，不宣称可按 App 自动切换；保留原有 TikTok 选项与重写开关，改区最多启用一项，未经实测不声明兼容。
-- 常用策略图标按用户要求合并离歌 17 项并自托管；地区旗帜及无准确替代项保留 Qure 等现有图片。节点订阅继续使用 Qure mini；不因文件同名就替换，不将彩色实底图用于 PROXY 单色槽。
+- 用户 2026-11-22 16:29:57 导出的配置含 50 处已确认可用图标设置，是当前图标基线；维护时逐处保留原 URL、策略/订阅映射及用户差异，不再批量套用图库或强制回退 Qure mini。HappyRule 常用图库为可选补充；非图标功能更新不得重置已选图标。
 - 图标库订阅为 `Icon/gallery.json`；图标和清单变更后运行 `python tools/build_icon_gallery.py`，保留常用优先顺序和 144×144 PNG 适配；不宣称订阅能强制跨库置顶。
 - Dashboard Icons 完整库为 `Icon/DashboardIcons/gallery.json`，与 HappyRule 常用库分开维护；同步时以固定上游 Git 提交的实际 PNG 文件为准，官网搜索还包括其他供应方，不混为本库。
 - Dashboard 图标库日常使用 `Icon/DashboardIcons/parts/` 按需分组（每组最多 200 项），完整库保留备用；更新完整清单时同时重建分组，校验无遗漏、重复或图标 URL 变更，不默认引导同时加载整套图库。
