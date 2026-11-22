@@ -1,5 +1,5 @@
 {
-  "checked_at_beijing": "2026-11-22 14:58:06 (UTC+8，北京时间)",
+  "checked_at_beijing": "2026-11-22 16:06:49 (UTC+8，北京时间)",
   "icons": [
     {
       "path": "Icon/Dashboard/wechat.png",
@@ -118,27 +118,24 @@
       }
     },
     {
-      "path": "Icon/Dashboard/chatgpt.png",
+      "path": "Icon/DashboardIcons/png/openai.png",
       "upstream": {
         "repository": "homarr-labs/dashboard-icons",
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
-        "path": "png/chatgpt.png"
+        "path": "png/openai.png"
       },
-      "git_blob": "6246a1064240471285f76b4ee94717dc61540039",
-      "sha256": "53b12f3e75a599dad8a6735f6ade5bbec90701b2a2cb9943971958d3ba337315",
-      "upstream_git_blob": "cc68d786341a54397f833e1a7e5595d2bad8c35d",
+      "git_blob": "5137493df29534da101e1d3b8772f1f0066c188e",
+      "sha256": "5667df63799b77c8acb583536b4a6526ad706f223d65645a75740c0e5bddab2b",
+      "upstream_git_blob": "4b7fb0e6d1277eea19954afb8413d683f2c82155",
       "render": {
         "canvas": [
           144,
           144
         ],
-        "source_size": [
-          512,
-          512
-        ],
         "fit": "contain",
         "background": "transparent"
-      }
+      },
+      "usage": "ChatGPT 使用透明 OpenAI 标志；原带底色应用图仍保留在完整库。"
     },
     {
       "path": "Icon/Qure/Color/Final.png",
@@ -443,5 +440,6 @@
     "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/mini/GlobalMedia.png",
     "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png"
   },
-  "gallery_version": "20261122-145806-Icon-Gallery"
+  "gallery_version": "20261122-160649-QX-Color",
+  "image_ref": "8e2df5d9b598958dc4c28b13624dca1d7946548e"
 }

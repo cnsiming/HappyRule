@@ -1,14 +1,13 @@
 """从已托管图标生成 QX 图标库；常用顺序保持稳定。"""
 from pathlib import Path
-import json
+import json, re, subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW = "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/"
+RAW_BASE = "https://raw.githubusercontent.com/cnsiming/HappyRule/"
 ORDER = [
     ("WgetCloud", "Icon/Custom/WgetCloud.png"),
-    ("PineDrama", "Icon/Dashboard/tiktok.png"),
-    ("TikTok", "Icon/Dashboard/tiktok.png"),
-    ("ChatGPT", "Icon/Dashboard/chatgpt.png"),
+    ("TikTok / PineDrama", "Icon/Dashboard/tiktok.png"),
+    ("ChatGPT / OpenAI", "Icon/DashboardIcons/png/openai.png"),
     ("Claude", "Icon/Dashboard/anthropic.png"),
     ("Muse / Meta", "Icon/Dashboard/meta.png"),
     ("美国", "Icon/Qure/Color/United_States.png"),
@@ -39,6 +38,18 @@ ORDER = [
 
 def main():
     manifest = json.loads((ROOT / "Icon/manifest.json").read_text("utf-8"))
+    image_ref=manifest["image_ref"]
+    if not re.fullmatch(r"[0-9a-f]{40}",image_ref):
+        raise ValueError("图像引用必须为固定提交 SHA")
+    entries={}
+    for line in subprocess.check_output(["git","ls-tree","-rz",image_ref],cwd=ROOT).split(b"\0"):
+        if line:
+            meta,path=line.split(b"\t",1)
+            entries[path.decode("utf-8")]=meta.decode().split()[2]
+    for item in manifest["icons"]:
+        if entries.get(item["path"])!=item["git_blob"]:
+            raise ValueError("固定提交不包含当前图标："+item["path"])
+    raw=RAW_BASE+image_ref+"/"
     expected = {entry["path"] for entry in manifest["icons"]}
     actual = {path for _, path in ORDER}
     if actual != expected:
@@ -46,11 +57,11 @@ def main():
     if any(not (ROOT / path).is_file() for path in actual):
         raise ValueError("图标文件缺失")
     gallery = {
-        "name": "HappyRule",
-        "description": "常用图标优先 · 更新：" + manifest["checked_at_beijing"] + " · " + manifest["gallery_version"],
-        "icons": [{"name": f"{index:02d} {name}", "url": RAW + path} for index, (name, path) in enumerate(ORDER, 1)],
+        "name": "HappyRule Color（策略图标）",
+        "description": "彩色策略专用；节点订阅请使用 Qure mini。更新：" + manifest["checked_at_beijing"] + " · " + manifest["gallery_version"],
+        "icons": [{"name": f"{index:02d} {name}", "url": raw + path} for index, (name, path) in enumerate(ORDER, 1)],
     }
-    (ROOT / "Icon/gallery.json").write_text(json.dumps(gallery, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "Icon/gallery.json").write_text(json.dumps(gallery, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="")
     print(f"HappyRule 图标库：{len(gallery['icons'])} 个选项，{len(actual)} 张图片")
 
 if __name__ == "__main__":

@@ -10,15 +10,15 @@
 手工添加：长按相应策略或订阅 → 图标 → `＋` → 粘贴 JSON 直链。Qure 未提供同名 Claude/Muse 图标，当前使用其通用 AI 图标。
 
 
-## HappyRule 图标库（备用）
+## HappyRule Color 图标库（彩色策略备用）
 
 [直接添加到 Quantumult X](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/gallery.json)
 
 手工添加：长按任一策略组 → 图标 → `＋` → 粘贴订阅地址。添加后选择 HappyRule；库内常用图标优先，WgetCloud、PineDrama、TikTok 排在最前，编号保持选项顺序。跨库置顶由 QX 界面控制，订阅本身不能强制。
 
-所有图片为 144×144 PNG；新图按比例居中适配透明画布，保留原有图形。图片未刷新时，清除 QX 图片缓存并重启应用。订阅链接和格式已检查，iPhone 实际添加与显示待验证。
+本库仅用于彩色策略图标，不能把带底色的应用图直接当作 PROXY 订阅的单色轮廓。本库共 29 个不重复选项，合并 TikTok/PineDrama 别名，ChatGPT 改用透明 OpenAI 标志。图片均为已核对的 144×144 PNG，并引用本项目固定图像提交以区别旧版本缓存；格式与下载检查不等于 iPhone 实机验收。旧库预览空白时优先使用交付的固定版本 JSON 地址重新添加，不将预览空白与单色实心块混为一谈。
 
-更新图标或清单后运行 `python tools/build_icon_gallery.py`，同时维护常用顺序。格式与直接添加方式依据 [QX 官方说明](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)。
+更新图标时先提交图片，核对并设置 `Icon/manifest.json` 的 `image_ref` 为包含这些图片的固定提交，再运行 `python tools/build_icon_gallery.py`；生成器检查提交内图片校验值与清单一致，同时维护常用顺序。格式与直接添加方式依据 [QX 官方说明](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)。
 
 ## Dashboard Icons 按需分组（优先）
 
