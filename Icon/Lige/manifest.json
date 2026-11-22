@@ -1,0 +1,431 @@
+{
+  "repository": "lige47/lige_icon",
+  "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+  "icons": [
+    {
+      "path": "Icon/Lige/wgetcloud.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/06jichang/wgetcloud.png"
+      },
+      "upstream_git_blob": "d5990ed7bcb785999002977d97bdb0ab97ed3828",
+      "upstream_sha256": "d58d44901193e16048e4b0d8e1c876edbd2ba29fb17341cdb9bafe922e408690",
+      "git_blob": "4c5982bb6d3eb6be8a887f25ca886397fe1093cb",
+      "sha256": "bdbc51912e921e400ad9f392530d244ab1f1eaa69a0e6fe28f6179ca807786b0",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/tiktok.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/04ProxySoft/tiktok.png"
+      },
+      "upstream_git_blob": "aa39dd83e8145d446142c910fa2154ebacc7e44d",
+      "upstream_sha256": "bd8014b6c841ddb6443299eacc05e125f22b9023b9dcd4dd69b069ccc1553a2d",
+      "git_blob": "a0730e1eec3fd319a0b81e18668d90c864baf69a",
+      "sha256": "25e427700ac38432cb1455ee4f72fe37622c5c3a9f5dbda77a00267c9d60ef58",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/chatGPT-green.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/04ProxySoft/chatGPT-green.png"
+      },
+      "upstream_git_blob": "74746b22ca9300a638c48fd420bdb1c3119df47e",
+      "upstream_sha256": "4669e3d5e6bccff6ab257fdc4b373951b0c32b6584f5fd0234797d1957f728e0",
+      "git_blob": "8711ce863ea28f989bcad9765c1be1e19fd97286",
+      "sha256": "25a4a9946362fdda2f0e4d7abd241237da191457b17ab2ac6c02dd0e18b7fb42",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/claude(1).png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/04ProxySoft/claude(1).png"
+      },
+      "upstream_git_blob": "c282f638e6f45ca8fb28dd848f94cecce498eda4",
+      "upstream_sha256": "6253f9b96c698f1c7398c9eee6fdd2b1b3a6fdca9fcde421fba1e9e0694d777f",
+      "git_blob": "58ad2e91056e66db3107e2d720572030b6db94cf",
+      "sha256": "9b521dd42b84754a9e00ad5af819b4de39dee889cff527dea69e06810688837c",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/Muse.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/04ProxySoft/Muse.png"
+      },
+      "upstream_git_blob": "932f69968b067386d4c10757e6b281c256e86f21",
+      "upstream_sha256": "dfd5d6e5ced6fd69af98ae783b6130d219e3f6a6ef34b79ce5a86fc12763ab0e",
+      "git_blob": "e8862f402139929d414198cee273bff05dfcb545",
+      "sha256": "14a5616d7392532c72d7cdc8038b937e98c50a3c87b4eced301f790dddf44f18",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/apple.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/apple.png"
+      },
+      "upstream_git_blob": "535726695e7c5afa454a194dff549b9c541c722b",
+      "upstream_sha256": "15fee8095fe73f811a8704998e7fd449cc8c2c089ad826181d580152c8f6a48e",
+      "git_blob": "f8df5f4ce324b40e5585f5ac76c6ec638ddae002",
+      "sha256": "838b943b36f5a082f07a9c640ac491c5819526d5866eb7419b5285ebd26009f3",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/netflix(red).png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/04ProxySoft/netflix(red).png"
+      },
+      "upstream_git_blob": "c4ffc908a6fcd52b74cb85ed0ca2e7e86dc8b5b1",
+      "upstream_sha256": "0c1288efdf9be4a01afa61252fb8b6fc9d735c8847cacd2d66c84ccfb61f02d3",
+      "git_blob": "f31c00dbb0b28bf56361e790269f2fe80a30f78e",
+      "sha256": "b500956eca66e0e6ceb3d8bcf3ddb9f526ce9ac375da7786f5da2bce064e9786",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/quanqiu.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/05icon/quanqiu.png"
+      },
+      "upstream_git_blob": "acb4d62ae9a991a0a7720d043803105efd2f5201",
+      "upstream_sha256": "ee1366cc2c4f3f7f4f41ff92185be6b9540698221e01ad93be4051515fc2562b",
+      "git_blob": "9b334d2533559684087425f0e0e1525442947755",
+      "sha256": "adfb5500f666d59fabe9064ca033cad2b0e3b37f9fe1e9a742dee898c8dfa79b",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/game.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/05icon/game.png"
+      },
+      "upstream_git_blob": "31f289bc611efe6b5721c704397e90b667359ef8",
+      "upstream_sha256": "17d4d5b29ab2026ef771f620050cb1e5bfcc5f696e0cabe67846ee3f6a841a3c",
+      "git_blob": "d25c833566742488c6936dced264a558cec48d3b",
+      "sha256": "ec5b5c2e3b62af0617994c87dac52b746bb938d3cdedc6c8080f21b440a584e4",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/ad.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/05icon/ad.png"
+      },
+      "upstream_git_blob": "54d5495ae2a642e5998a164edf125a46ceac74e7",
+      "upstream_sha256": "2c483e4f3f097e034dbe34c73241f5f3712217820660c219149305cdd371273a",
+      "git_blob": "9a3825438343d7a0980533be065beea5c88ce1be",
+      "sha256": "3428d0fb42fc706f3faa371fbc1e6ca70988b66e66e9faf94579f6cac5946084",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/wechat.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/wechat.png"
+      },
+      "upstream_git_blob": "1313e26d1fac2c36c32fe1f7810a8f3a925b5686",
+      "upstream_sha256": "3e3ed6409b8ca77187e3c706a6e7d00e1a5479dc4a733277b4f2a411ee4b13a2",
+      "git_blob": "c47ecb1650cf5eb19ad067bfec318e399c19ec5b",
+      "sha256": "dce46737725bf6f3ab5bdda2af0d255db6ee116be68f7c682a6ef18851ae085b",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/baidunetdisk.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/baidunetdisk.png"
+      },
+      "upstream_git_blob": "716ee434169062d0acb328f954210030db3d76b8",
+      "upstream_sha256": "053a5c6723698dab0217f9108b126a9449890f5d8c2e6a595ba571bf61830b87",
+      "git_blob": "f604534eafca657bd2cfb6f3a3acf67fc1428534",
+      "sha256": "9414a8a3f1d1940fbccf2f3592218d74f428636fb5c4f66587ec284c6f3bfb02",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/caiyuntianqi.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/caiyuntianqi.png"
+      },
+      "upstream_git_blob": "2d78a6982a4ded10fe39ba47e4d5af55a4e4c780",
+      "upstream_sha256": "9a2cd1759de0d07c784116996d1264b6a98339ef968da518334e15e7c6b91e03",
+      "git_blob": "482dc5b237c1fb627d3097fa050e5d2b14996c56",
+      "sha256": "21ecf2aa87451c49be11ba36482d0ce6cf1e3e4bb5b9afbe49e436fde59b81ad",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/xianyu.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/xianyu.png"
+      },
+      "upstream_git_blob": "48824e7e179673c84b3934e73252f57d141c0cc3",
+      "upstream_sha256": "66c00ec6ee8142254bed63c75b566f870a23128f5b08483cccc27c9b6ed7a563",
+      "git_blob": "1c4f881399fe694a4cbbdf82a5ff6a95fa0a9c11",
+      "sha256": "65488b4c7a5ff772cc1636f1324a532e9ea78a2ccb9f9a39e77b4f7863053033",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/xiaohongshu.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/xiaohongshu.png"
+      },
+      "upstream_git_blob": "eb0865ffb2710e6d038e450da01bfe113aded668",
+      "upstream_sha256": "7c3d42232eec45f2ad00c2ad1368d51afc3b1f22a0c12e7bd1f8f375f1cfbcf2",
+      "git_blob": "8fb7da06a00fb3ea010c43daa4b1c70e8106e1aa",
+      "sha256": "8b4b8cbbd25447b834781d2e62dd0c9cc9d1ba9c0670eaa14187d58805e78f27",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          108,
+          108
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/zhihu.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/03CNSoft/zhihu.png"
+      },
+      "upstream_git_blob": "bb9d2524992bb3fefa31ee22cc5ba7119d511687",
+      "upstream_sha256": "5a07941d89d7921f8b8c03dcc3498d39c7df6c9c44cd25289e86ad3c65376efa",
+      "git_blob": "0669a4bab5e6a5878fad1f39601253c966942a1c",
+      "sha256": "0ac65b2de409bfaf749a0ce6f7c478c7d4980761041dff6298d00f44a0e812bb",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          200,
+          200
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    },
+    {
+      "path": "Icon/Lige/quanx.png",
+      "upstream": {
+        "repository": "lige47/lige_icon",
+        "ref": "2615d1491d312fe0ba7d527f8799652a5e0271a1",
+        "path": "icon/02ProxySoftLogo/quanx.png"
+      },
+      "upstream_git_blob": "b767e80a7d543299797d60fcafdf80c6fd0415fe",
+      "upstream_sha256": "bc2d93996a468f4a878cc7e203fb8b1ad35acfa8445f134b1615674c0c59da50",
+      "git_blob": "935be2478cefc8e7688a7c6878179f81073b1359",
+      "sha256": "79030230b195cca8959bf990b1d476f9a50f6e6582f4c743eaf6180fd413a6dd",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          144,
+          144
+        ],
+        "mode": "RGBA",
+        "fit": "contain",
+        "background": "transparent"
+      }
+    }
+  ]
+}
