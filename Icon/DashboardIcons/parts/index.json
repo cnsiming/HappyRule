@@ -1,0 +1,369 @@
+{
+  "name": "Dashboard Icons 按需分组",
+  "generated_at_beijing": "2026-11-22 15:27:17 (UTC+8，北京时间)",
+  "upstream_commit": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+  "max_items": 200,
+  "total_icons": 4894,
+  "groups": [
+    {
+      "label": "0-9",
+      "path": "Icon/DashboardIcons/parts/0-9-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/0-9-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2F0-9-01.json%22%5D",
+      "count": 22,
+      "first": "1337x",
+      "last": "9router"
+    },
+    {
+      "label": "A 1/2",
+      "path": "Icon/DashboardIcons/parts/a-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/a-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fa-01.json%22%5D",
+      "count": 200,
+      "first": "a-mule",
+      "last": "arrow-electronics-dark"
+    },
+    {
+      "label": "A 2/2",
+      "path": "Icon/DashboardIcons/parts/a-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/a-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fa-02.json%22%5D",
+      "count": 130,
+      "first": "arrow-electronics-light",
+      "last": "azure-vnet"
+    },
+    {
+      "label": "B 1/2",
+      "path": "Icon/DashboardIcons/parts/b-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/b-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fb-01.json%22%5D",
+      "count": 200,
+      "first": "bab-technologie",
+      "last": "buzz"
+    },
+    {
+      "label": "B 2/2",
+      "path": "Icon/DashboardIcons/parts/b-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/b-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fb-02.json%22%5D",
+      "count": 3,
+      "first": "byparr",
+      "last": "bytestash"
+    },
+    {
+      "label": "C 1/2",
+      "path": "Icon/DashboardIcons/parts/c-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/c-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fc-01.json%22%5D",
+      "count": 200,
+      "first": "c",
+      "last": "control-d"
+    },
+    {
+      "label": "C 2/2",
+      "path": "Icon/DashboardIcons/parts/c-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/c-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fc-02.json%22%5D",
+      "count": 95,
+      "first": "control-d-dark",
+      "last": "czkawka"
+    },
+    {
+      "label": "D 1/2",
+      "path": "Icon/DashboardIcons/parts/d-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/d-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fd-01.json%22%5D",
+      "count": 200,
+      "first": "d-link",
+      "last": "drone"
+    },
+    {
+      "label": "D 2/2",
+      "path": "Icon/DashboardIcons/parts/d-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/d-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fd-02.json%22%5D",
+      "count": 29,
+      "first": "drop",
+      "last": "dynmap"
+    },
+    {
+      "label": "E",
+      "path": "Icon/DashboardIcons/parts/e-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/e-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fe-01.json%22%5D",
+      "count": 124,
+      "first": "e-os",
+      "last": "ezbookkeeping"
+    },
+    {
+      "label": "F 1/2",
+      "path": "Icon/DashboardIcons/parts/f-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/f-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Ff-01.json%22%5D",
+      "count": 200,
+      "first": "f-droid",
+      "last": "fritzbox-4060-3"
+    },
+    {
+      "label": "F 2/2",
+      "path": "Icon/DashboardIcons/parts/f-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/f-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Ff-02.json%22%5D",
+      "count": 21,
+      "first": "fritzbox-5530-2",
+      "last": "fygoos"
+    },
+    {
+      "label": "G 1/2",
+      "path": "Icon/DashboardIcons/parts/g-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/g-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fg-01.json%22%5D",
+      "count": 200,
+      "first": "gamevault",
+      "last": "gridscale-dark"
+    },
+    {
+      "label": "G 2/2",
+      "path": "Icon/DashboardIcons/parts/g-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/g-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fg-02.json%22%5D",
+      "count": 12,
+      "first": "grimoire",
+      "last": "gumroad"
+    },
+    {
+      "label": "H",
+      "path": "Icon/DashboardIcons/parts/h-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/h-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fh-01.json%22%5D",
+      "count": 185,
+      "first": "habit-trove",
+      "last": "hytale"
+    },
+    {
+      "label": "I",
+      "path": "Icon/DashboardIcons/parts/i-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/i-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fi-01.json%22%5D",
+      "count": 114,
+      "first": "i-am-designer-kawaii-english",
+      "last": "ixon"
+    },
+    {
+      "label": "J",
+      "path": "Icon/DashboardIcons/parts/j-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/j-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fj-01.json%22%5D",
+      "count": 55,
+      "first": "jackett",
+      "last": "jwt-io-light"
+    },
+    {
+      "label": "K",
+      "path": "Icon/DashboardIcons/parts/k-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/k-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fk-01.json%22%5D",
+      "count": 117,
+      "first": "k-speeder",
+      "last": "kyverno-wordmark-light"
+    },
+    {
+      "label": "L",
+      "path": "Icon/DashboardIcons/parts/l-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/l-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fl-01.json%22%5D",
+      "count": 161,
+      "first": "lab-dash",
+      "last": "lyrion-dark"
+    },
+    {
+      "label": "M 1/2",
+      "path": "Icon/DashboardIcons/parts/m-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/m-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fm-01.json%22%5D",
+      "count": 200,
+      "first": "m3u-editor",
+      "last": "mode-777"
+    },
+    {
+      "label": "M 2/2",
+      "path": "Icon/DashboardIcons/parts/m-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/m-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fm-02.json%22%5D",
+      "count": 80,
+      "first": "mode-777-dark",
+      "last": "mythtv"
+    },
+    {
+      "label": "N",
+      "path": "Icon/DashboardIcons/parts/n-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/n-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fn-01.json%22%5D",
+      "count": 196,
+      "first": "n-able",
+      "last": "nzbhydra2-light"
+    },
+    {
+      "label": "O",
+      "path": "Icon/DashboardIcons/parts/o-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/o-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fo-01.json%22%5D",
+      "count": 200,
+      "first": "oase",
+      "last": "oxynote-light"
+    },
+    {
+      "label": "P 1/3",
+      "path": "Icon/DashboardIcons/parts/p-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/p-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fp-01.json%22%5D",
+      "count": 200,
+      "first": "p-cal",
+      "last": "podman"
+    },
+    {
+      "label": "P 2/3",
+      "path": "Icon/DashboardIcons/parts/p-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/p-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fp-02.json%22%5D",
+      "count": 200,
+      "first": "podnapisi",
+      "last": "pvy-central-wordmark-dark"
+    },
+    {
+      "label": "P 3/3",
+      "path": "Icon/DashboardIcons/parts/p-03.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/p-03.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fp-03.json%22%5D",
+      "count": 182,
+      "first": "pvy-central-wordmark-light",
+      "last": "pytorch-wordmark-light"
+    },
+    {
+      "label": "Q",
+      "path": "Icon/DashboardIcons/parts/q-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/q-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fq-01.json%22%5D",
+      "count": 42,
+      "first": "qbitmanage",
+      "last": "qwik"
+    },
+    {
+      "label": "R 1/2",
+      "path": "Icon/DashboardIcons/parts/r-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/r-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fr-01.json%22%5D",
+      "count": 200,
+      "first": "r",
+      "last": "runpod-light"
+    },
+    {
+      "label": "R 2/2",
+      "path": "Icon/DashboardIcons/parts/r-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/r-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fr-02.json%22%5D",
+      "count": 14,
+      "first": "runson",
+      "last": "ryot-light"
+    },
+    {
+      "label": "S 1/3",
+      "path": "Icon/DashboardIcons/parts/s-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/s-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fs-01.json%22%5D",
+      "count": 200,
+      "first": "s3",
+      "last": "socialhome"
+    },
+    {
+      "label": "S 2/3",
+      "path": "Icon/DashboardIcons/parts/s-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/s-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fs-02.json%22%5D",
+      "count": 200,
+      "first": "sodola",
+      "last": "synology-surveillance-station"
+    },
+    {
+      "label": "S 3/3",
+      "path": "Icon/DashboardIcons/parts/s-03.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/s-03.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fs-03.json%22%5D",
+      "count": 5,
+      "first": "synology-text-editor",
+      "last": "sysreptor"
+    },
+    {
+      "label": "T 1/2",
+      "path": "Icon/DashboardIcons/parts/t-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/t-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Ft-01.json%22%5D",
+      "count": 200,
+      "first": "t-pot",
+      "last": "trainerroad"
+    },
+    {
+      "label": "T 2/2",
+      "path": "Icon/DashboardIcons/parts/t-02.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/t-02.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Ft-02.json%22%5D",
+      "count": 65,
+      "first": "trakt",
+      "last": "typo3"
+    },
+    {
+      "label": "U",
+      "path": "Icon/DashboardIcons/parts/u-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/u-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fu-01.json%22%5D",
+      "count": 58,
+      "first": "ubiquiti",
+      "last": "usermin"
+    },
+    {
+      "label": "V",
+      "path": "Icon/DashboardIcons/parts/v-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/v-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fv-01.json%22%5D",
+      "count": 109,
+      "first": "v-corp-international",
+      "last": "vuplus"
+    },
+    {
+      "label": "W",
+      "path": "Icon/DashboardIcons/parts/w-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/w-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fw-01.json%22%5D",
+      "count": 146,
+      "first": "w3c",
+      "last": "wudup"
+    },
+    {
+      "label": "X",
+      "path": "Icon/DashboardIcons/parts/x-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/x-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fx-01.json%22%5D",
+      "count": 29,
+      "first": "x",
+      "last": "xyops"
+    },
+    {
+      "label": "Y",
+      "path": "Icon/DashboardIcons/parts/y-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/y-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fy-01.json%22%5D",
+      "count": 43,
+      "first": "yaade",
+      "last": "yuvomi"
+    },
+    {
+      "label": "Z",
+      "path": "Icon/DashboardIcons/parts/z-01.json",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/parts/z-01.json",
+      "add_url": "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fparts%2Fz-01.json%22%5D",
+      "count": 57,
+      "first": "z-ai",
+      "last": "zyxel-networks-wordmark-light"
+    }
+  ]
+}

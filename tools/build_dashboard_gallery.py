@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageOps
 from urllib.parse import quote
-import argparse, hashlib, io, json, subprocess
+import argparse, hashlib, io, json, subprocess, sys
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/"
@@ -106,6 +106,7 @@ def build(upstream):
     actual={x.relative_to(ROOT).as_posix() for x in (folder/"png").glob("*.png")}
     if expected!=actual:
         raise ValueError("整套图标目录有缺失或额外文件，请核对，未自动删除")
+    subprocess.run([sys.executable,str(ROOT/"tools/build_dashboard_parts.py")],check=True)
     print(json.dumps({"count":len(icons),"new_pngs":len(actual),"reused_common_pngs":len(icons)-len(actual),"upstream_commit":commit},ensure_ascii=False))
 
 if __name__=="__main__":

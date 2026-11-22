@@ -13,3 +13,4 @@
 - 配置图标统一指向本仓库 `Icon/`；更新时核对来源、许可和实际图形变化，维护清单与上游同步替换补丁。
 - 图标库订阅为 `Icon/gallery.json`；图标和清单变更后运行 `python tools/build_icon_gallery.py`，保留常用优先顺序和 144×144 PNG 适配；不宣称订阅能强制跨库置顶。
 - Dashboard Icons 完整库为 `Icon/DashboardIcons/gallery.json`，与 HappyRule 常用库分开维护；同步时以固定上游 Git 提交的实际 PNG 文件为准，官网搜索还包括其他供应方，不混为本库。
+- Dashboard 图标库日常使用 `Icon/DashboardIcons/parts/` 按需分组（每组最多 200 项），完整库保留备用；更新完整清单时同时重建分组，校验无遗漏、重复或图标 URL 变更，不默认引导同时加载整套图库。

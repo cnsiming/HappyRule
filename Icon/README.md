@@ -12,13 +12,19 @@
 
 更新图标或清单后运行 `python tools/build_icon_gallery.py`，同时维护常用顺序。格式与直接添加方式依据 [QX 官方说明](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)。
 
-## Dashboard Icons 完整库
+## Dashboard Icons 按需分组（优先）
+
+[按首字母添加分组](DashboardIcons/parts/README.md) · [官方查询页面](https://dashboardicons.com/icons)
+
+每组最多 200 项，按需添加一个组；日常优先使用上方 30 项常用库。不要同时加载全部分组；完整 4,894 项图库仅作备用。首次下载后保留图片缓存，不必为日常选图反复清空。
+
+## Dashboard Icons 完整库（备用）
 
 [添加完整库](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/gallery.json) · [官方查询页面](https://dashboardicons.com/icons)
 
 完整库为上游实际 4,894 张原生 PNG（含明暗变体），全部自托管并适配为 144×144；与上方 HappyRule 常用库分别订阅，详见 [完整库说明](DashboardIcons/README.md)。
 
-[同时添加两个库（常用库在前）](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2Fgallery.json%22%2C%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fgallery.json%22%5D)；此为提交添加的顺序，实际跨库排列由 QX 控制。
+图标库建议只添加常用库和当前需要的一个分组，完整库首次加载可能较慢。
 
 ## 来源与许可
 
