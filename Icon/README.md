@@ -1,44 +1,40 @@
 # 图标
 
-当前 QX 图标已按用户要求恢复 Qure：自定义策略使用彩色 Qure Color，节点订阅使用透明单色 Qure mini。下面的自托管图库仅保留备用，不再作为默认选择。
+HappyRule 常用库合并离歌 17 项图标，保留 12 项现有图片，共 29 项。当前配置与图库使用同一批固定版本图片。
 
-## 当前使用的 Qure 图标库
+## 添加到 Quantumult X
 
-- [Qure Color JSON 订阅直链](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json)：用于自定义策略组。
-- [Qure mini JSON 订阅直链](https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json)：用于 PROXY 节点订阅，避免彩色实底图片被渲染为实心块。
+- [HappyRule 常用策略图标库 JSON](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/gallery.json)
+- [Qure Color JSON](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json)：保留的地区及通用图标。
+- [Qure mini JSON](https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json)：节点订阅使用，WgetCloud 订阅保持此来源。
 
-手工添加：长按相应策略或订阅 → 图标 → `＋` → 粘贴 JSON 直链。Qure 未提供同名 Claude/Muse 图标，当前使用其通用 AI 图标。
+长按策略或订阅 → 图标 → `＋` → 粘贴对应 JSON 地址。HappyRule 用于彩色策略图标；带实底的图片不要用于 PROXY 单色槽。常用项目排在本库前面，订阅不能强制跨库置顶。
 
+## 本次合并
 
-## HappyRule Color 图标库（彩色策略备用）
+| 处理 | 图标 |
+| --- | --- |
+| 离歌替换 17 项 | WgetCloud、TikTok/PineDrama、ChatGPT、Claude、Muse、Apple、Netflix、全球加速、游戏、广告净化、微信、百度网盘、彩云天气、闲鱼、小红书、知乎、Quantumult X |
+| 保留 12 项 | 美/日/港/韩/台/新/英地区图标，以及 AI、IPLC、港台番剧、国际媒体、Final |
 
-[直接添加到 Quantumult X](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/gallery.json)
+按实际外观与用途匹配，不只按文件名匹配。地区图标保留用户已可用的 Qure；没有准确替代项时保留原图。AI-Claude、AI-Muse 不再共用通用 AI 图标。
 
-手工添加：长按任一策略组 → 图标 → `＋` → 粘贴订阅地址。添加后选择 HappyRule；库内常用图标优先，WgetCloud、PineDrama、TikTok 排在最前，编号保持选项顺序。跨库置顶由 QX 界面控制，订阅本身不能强制。
+新收录图片为 144×144 RGBA PNG，按比例适配；图库图片地址固定到本项目图像提交，避免旧地址缓存。已检查下载、格式、非空透明通道、清单与配置的一致性；iPhone 图库预览、策略显示仍待用户确认，不能以静态检查代替实机验收。
 
-本库仅用于彩色策略图标，不能把带底色的应用图直接当作 PROXY 订阅的单色轮廓。本库共 29 个不重复选项，合并 TikTok/PineDrama 别名，ChatGPT 改用透明 OpenAI 标志。图片均为已核对的 144×144 PNG，并引用本项目固定图像提交以区别旧版本缓存；格式与下载检查不等于 iPhone 实机验收。旧库预览空白时优先使用交付的固定版本 JSON 地址重新添加，不将预览空白与单色实心块混为一谈。
+更新时先提交图片，设置 `Icon/manifest.json` 的 `image_ref`，再运行 `python tools/build_icon_gallery.py`。生成器核对固定提交内图片与清单一致。图标库格式参考 [QX 官方示例](https://github.com/crossutility/Quantumult-X/blob/master/icon-gallery.json)。
 
-更新图标时先提交图片，核对并设置 `Icon/manifest.json` 的 `image_ref` 为包含这些图片的固定提交，再运行 `python tools/build_icon_gallery.py`；生成器检查提交内图片校验值与清单一致，同时维护常用顺序。格式与直接添加方式依据 [QX 官方说明](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)。
+## Dashboard Icons（独立备用）
 
-## Dashboard Icons 按需分组（优先）
-
-[按首字母添加分组](DashboardIcons/parts/README.md) · [官方查询页面](https://dashboardicons.com/icons)
-
-每组最多 200 项，按需添加一个组；日常优先使用上方 30 项常用库。不要同时加载全部分组；完整 4,894 项图库仅作备用。首次下载后保留图片缓存，不必为日常选图反复清空。
-
-## Dashboard Icons 完整库（备用）
-
-[添加完整库](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/gallery.json) · [官方查询页面](https://dashboardicons.com/icons)
-
-完整库为上游实际 4,894 张原生 PNG（含明暗变体），全部自托管并适配为 144×144；与上方 HappyRule 常用库分别订阅，详见 [完整库说明](DashboardIcons/README.md)。
-
-图标库建议只添加常用库和当前需要的一个分组，完整库首次加载可能较慢。
+- [按需分组](DashboardIcons/parts/README.md)：每组最多 200 项，按需添加一个组。
+- [完整库 JSON](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/gallery.json)：4,894 项，首次加载较慢，不建议日常打开整套。
+- [官方查询页面](https://dashboardicons.com/icons) · [完整库说明](DashboardIcons/README.md)
 
 ## 来源与许可
 
-- [Dashboard Icons](https://github.com/homarr-labs/dashboard-icons)：新图源，最近核对提交为 2026-11-16；Apache-2.0，许可原文见 `LICENSES/`。
-- [Koolson/Qure](https://github.com/Koolson/Qure)：地区和通用图标保留原图，按上游要求署名、仅个人非商用；原文声明见 `LICENSES/`。
-- [ddgksf2013/Icon](https://github.com/ddgksf2013/Icon)：五项 App 原图留存，保留作者来源；上游未声明统一开源许可证，不纳入 Apache-2.0 授权范围。
-- `Custom/WgetCloud.png`：用户指定的机场头像，解码后按比例适配为 144×144 PNG；来源见清单，品牌图形不纳入 Apache-2.0 授权范围。
+- [lige47/lige_icon](https://github.com/lige47/lige_icon)：本次引用 17 张图片，固定版本及校验值见 `Lige/manifest.json`；按作者要求署名，上游未声明统一开源许可证，见 `LICENSES/Lige-NOTICE.md`。
+- [Koolson/Qure](https://github.com/Koolson/Qure)：保留地区与通用图标，按作者要求署名、仅个人非商用；声明见 `LICENSES/Qure-NOTICE.md`。
+- [Dashboard Icons](https://github.com/homarr-labs/dashboard-icons)：完整备用库，Apache-2.0，许可见 `LICENSES/`。
+- [ddgksf2013/Icon](https://github.com/ddgksf2013/Icon)：旧 App 图标留作历史副本；未声明统一开源许可证。
+- `Custom/WgetCloud.png`：用户指定的旧机场头像留档；当前常用库和策略改用离歌副本。
 
-本次 10 项换新或补齐、19 项原图迁移；Muse 使用 Meta 标识。新图库缺少对应的地区旗帜和部分国内 App，仅保留当前配置实际需要的原图，不收录已替换的旧图。商标与品牌图形归各权利人。对应路径、上游固定版本和校验值见 `manifest.json`。后续更新核对来源与差异，不以仓库活跃等同于每张图都已更新。
+品牌图形归各权利人，不统一套用 Dashboard Icons 的 Apache-2.0 许可。本次不复制整套离歌图库，也不改变分流、节点筛选和重写开关。

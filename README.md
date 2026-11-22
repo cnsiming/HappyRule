@@ -7,7 +7,7 @@
 - `Profile/QuantumultX.conf`：用户最新在用 QX 配置的脱敏副本。
 - `Rules/`、`Filter/`：分流与过滤源；`dist/` 为自动生成结果。
 - `Vendor/`、`Rewrite/`、`Scripts/`：引用资源及同步清单。
-- 当前策略图标按用户要求恢复 Qure Color，节点订阅使用 Qure mini；`Icon/` 自托管图库保留备用，入口与许可见 [Icon/README.md](Icon/README.md)。
+- 常用图标合并离歌 17 项，地区旗帜及无准确替代项保留；节点订阅继续使用 Qure mini。图标库入口与来源见 [Icon/README.md](Icon/README.md)。
 - 来源署名见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
 
 ## 版本维护

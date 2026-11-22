@@ -27,4 +27,4 @@ HappyRule 的组织方式借鉴了以下优秀项目，规则内容通过 Vendor
 
 ## 图标副本
 
-本项目图标来源、许可与固定版本见 [Icon/README.md](Icon/README.md) 和 `Icon/manifest.json`；保留 Dashboard Icons、Koolson/Qure、ddgksf2013/Icon 署名。
+本项目图标来源、许可与固定版本见 [Icon/README.md](Icon/README.md) 和 `Icon/manifest.json`；保留 [lige47/lige_icon](https://github.com/lige47/lige_icon)、Dashboard Icons、Koolson/Qure、ddgksf2013/Icon 署名。

@@ -1,122 +1,122 @@
 {
   "name": "HappyRule Color（策略图标）",
-  "description": "彩色策略专用；节点订阅请使用 Qure mini。更新：2026-11-22 16:06:49 (UTC+8，北京时间) · 20261122-160649-QX-Color",
+  "description": "彩色策略专用；节点订阅请使用 Qure mini。更新：2026-11-22 16:28:28 (UTC+8，北京时间) · 20261122-162828-Lige-Icons",
   "icons": [
     {
       "name": "01 WgetCloud",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Custom/WgetCloud.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/wgetcloud.png"
     },
     {
       "name": "02 TikTok / PineDrama",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/tiktok.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/tiktok.png"
     },
     {
       "name": "03 ChatGPT / OpenAI",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/DashboardIcons/png/openai.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/chatGPT-green.png"
     },
     {
       "name": "04 Claude",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/anthropic.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/claude(1).png"
     },
     {
       "name": "05 Muse / Meta",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/meta.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/Muse.png"
     },
     {
       "name": "06 美国",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/United_States.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/United_States.png"
     },
     {
       "name": "07 日本",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Japan.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/Japan.png"
     },
     {
       "name": "08 香港",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Hong_Kong.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/Hong_Kong.png"
     },
     {
       "name": "09 韩国",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Korea.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/Korea.png"
     },
     {
       "name": "10 台湾",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/TW.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/TW.png"
     },
     {
       "name": "11 新加坡",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Singapore.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/Singapore.png"
     },
     {
       "name": "12 英国",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/United_Kingdom.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/United_Kingdom.png"
     },
     {
       "name": "13 苹果服务",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/apple.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/apple.png"
     },
     {
       "name": "14 Netflix",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/netflix.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/netflix(red).png"
     },
     {
       "name": "15 AI",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/AI.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/AI.png"
     },
     {
       "name": "16 全球加速",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Global.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/quanqiu.png"
     },
     {
       "name": "17 IPLC",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/IPLC.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/IPLC.png"
     },
     {
       "name": "18 游戏",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Game.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/game.png"
     },
     {
       "name": "19 港台番剧",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/HKMTMedia.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/HKMTMedia.png"
     },
     {
       "name": "20 国际媒体",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/mini/GlobalMedia.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/mini/GlobalMedia.png"
     },
     {
       "name": "21 Final",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Final.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Qure/Color/Final.png"
     },
     {
       "name": "22 广告净化",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/adblock.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/ad.png"
     },
     {
       "name": "23 微信",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Dashboard/wechat.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/wechat.png"
     },
     {
       "name": "24 百度网盘",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Legacy/ddgksf2013/baiduwangpan.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/baidunetdisk.png"
     },
     {
       "name": "25 彩云天气",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Legacy/ddgksf2013/caiyuntianqi.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/caiyuntianqi.png"
     },
     {
       "name": "26 闲鱼",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Legacy/ddgksf2013/xianyu.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/xianyu.png"
     },
     {
       "name": "27 小红书",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Legacy/ddgksf2013/xiaohongshu.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/xiaohongshu.png"
     },
     {
       "name": "28 知乎",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Legacy/ddgksf2013/zhihu.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/zhihu.png"
     },
     {
       "name": "29 Quantumult X",
-      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/8e2df5d9b598958dc4c28b13624dca1d7946548e/Icon/Qure/Color/Quantumult_X.png"
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/f28d67e3a8991fe5dca17ed6efc1e6e84a143f5d/Icon/Lige/quanx.png"
     }
   ]
 }
