@@ -48,7 +48,7 @@ def main():
         raise ValueError("存在旧分组文件，请核对后清理："+str(actual_paths-expected_paths))
     index={"name":"Dashboard Icons 按需分组","generated_at_beijing":datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")+" (UTC+8，北京时间)","upstream_commit":manifest["upstream_commit"],"max_items":LIMIT,"total_icons":len(expected),"groups":records}
     (folder/"index.json").write_text(json.dumps(index,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="")
-    lines=["# Dashboard Icons 按需分组", "", "日常先用 [HappyRule 常用库](../../README.md)。需要其他图标时，先在 [官方查询页面](https://dashboardicons.com/icons) 找到名称，再按首字母与名称范围，只添加需要的一个分组。", "", f"共 {len(records)} 组，覆盖全部 {len(expected):,} 项，每组最多 {LIMIT} 项。不必同时添加所有组；原完整库继续保留作备用。分组降低单次列表与图片加载量，手机实际速度仍取决于网络与 QX。", "", "在 QX 中将已添加的完整图库条目移出图标库列表后，改用下列分组；操作对象是图标库列表，不是分流策略或配置文件。首次加载后保留图片缓存，日常无需反复清空缓存。", "", "| 分组 | 名称范围 | 项数 | 添加 / 订阅 |", "|---|---|---:|---|"]
+    lines=["# Dashboard Icons 按需分组", "", "当前按用户要求默认使用 Qure；本分组库保留备用，入口见 [图标说明](../../README.md)。需要其他图标时，先在 [官方查询页面](https://dashboardicons.com/icons) 找到名称，再按首字母与名称范围，只添加需要的一个分组。", "", f"共 {len(records)} 组，覆盖全部 {len(expected):,} 项，每组最多 {LIMIT} 项。不必同时添加所有组；原完整库继续保留作备用。分组降低单次列表与图片加载量，手机实际速度仍取决于网络与 QX。", "", "在 QX 中将已添加的完整图库条目移出图标库列表后，改用下列分组；操作对象是图标库列表，不是分流策略或配置文件。首次加载后保留图片缓存，日常无需反复清空缓存。", "", "| 分组 | 名称范围 | 项数 | 添加 / 订阅 |", "|---|---|---:|---|"]
     for record in records:
         lines.append(f"| {record['label']} | {record['first']} — {record['last']} | {record['count']} | [添加]({record['add_url']}) · [订阅]({record['url']}) |")
     (folder/"README.md").write_text("\n".join(lines)+"\n",encoding="utf-8",newline="")

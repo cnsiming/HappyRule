@@ -1,8 +1,16 @@
 # 图标
 
-当前 QX 配置使用的图标副本；外链统一指向本项目 `rules/Icon/`。
+当前 QX 图标已按用户要求恢复 Qure：自定义策略使用彩色 Qure Color，节点订阅使用透明单色 Qure mini。下面的自托管图库仅保留备用，不再作为默认选择。
 
-## HappyRule 图标库
+## 当前使用的 Qure 图标库
+
+- [Qure Color JSON 订阅直链](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json)：用于自定义策略组。
+- [Qure mini JSON 订阅直链](https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json)：用于 PROXY 节点订阅，避免彩色实底图片被渲染为实心块。
+
+手工添加：长按相应策略或订阅 → 图标 → `＋` → 粘贴 JSON 直链。Qure 未提供同名 Claude/Muse 图标，当前使用其通用 AI 图标。
+
+
+## HappyRule 图标库（备用）
 
 [直接添加到 Quantumult X](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/gallery.json)
 
