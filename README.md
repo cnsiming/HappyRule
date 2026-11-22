@@ -7,6 +7,7 @@
 - `Profile/QuantumultX.conf`：用户最新在用 QX 配置的脱敏副本。
 - `Rules/`、`Filter/`：分流与过滤源；`dist/` 为自动生成结果。
 - `Vendor/`、`Rewrite/`、`Scripts/`：引用资源及同步清单。
+- `Icon/`：本项目托管的图标、来源与许可，见 [Icon/README.md](Icon/README.md)。
 - 来源署名见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
 
 ## 版本维护
@@ -17,7 +18,7 @@
 
 每次配置修改更新头部北京时间（UTC+8）、同步版本、按日期倒序的变更记录与验证状态；同日较新的记录在前，历史日期不明须注明。检查相关说明，提交推送后重新读取云端核对。
 
-2026-11-22 已纳入 PineDrama 独立策略组（美国手选优先、美国优选手动备选）及精确域名规则。已做静态核对，App API/CDN 覆盖与 iPhone 播放效果待实测。
+PineDrama 使用美国手选固定出口；共享 API/CDN 由 `Tiktok → PineDrama` 统一选择。用户已实测同一美国节点与 5G 下：关闭韩区重写可播放，开启报证书错误。韩区/美区重写默认关闭，原有 TikTok 选项保留；改区最多启用一项，美区重写兼容性尚未验证。共享域名无法按 App 自动切换改写，本版导入后仍需确认实际手选节点。
 
 ## 资源维护
 

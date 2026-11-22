@@ -1,0 +1,329 @@
+{
+  "checked_at_beijing": "2026-11-22 14:41:01 (UTC+8，北京时间)",
+  "icons": [
+    {
+      "path": "Icon/Dashboard/wechat.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/wechat.png"
+      },
+      "git_blob": "983b48d6e7eecfceed7c1bddf6341073e0fe2722",
+      "sha256": "71fd7b7249b6c9ec260b788daa9332f0589b4144f3ecfb4584392fd256b70e69"
+    },
+    {
+      "path": "Icon/Legacy/ddgksf2013/baiduwangpan.png",
+      "upstream": {
+        "repository": "ddgksf2013/Icon",
+        "ref": "533a5c58a2f742c2850620564331fa122b12ca47",
+        "path": "qx/baiduwangpan.png"
+      },
+      "git_blob": "6490235fc0c17ccbd8d16bdfd9e3d40bd692f916",
+      "sha256": "a2e658fb5d7a8bb66d5bac4346f9ee96a6a4e68eecd6251530338b62f13af0eb"
+    },
+    {
+      "path": "Icon/Legacy/ddgksf2013/caiyuntianqi.png",
+      "upstream": {
+        "repository": "ddgksf2013/Icon",
+        "ref": "533a5c58a2f742c2850620564331fa122b12ca47",
+        "path": "qx/caiyuntianqi.png"
+      },
+      "git_blob": "5645609925f765737da955263ff894f81e4ee999",
+      "sha256": "59320fe56ee94bddcc3b8e0990f1b1415dd68f0376245864e152de84d8f52e75"
+    },
+    {
+      "path": "Icon/Legacy/ddgksf2013/xianyu.png",
+      "upstream": {
+        "repository": "ddgksf2013/Icon",
+        "ref": "533a5c58a2f742c2850620564331fa122b12ca47",
+        "path": "qx/xianyu.png"
+      },
+      "git_blob": "344f774e185cae006dfbe54abf68bce6e5760771",
+      "sha256": "910290c409423568e68b628e12967460865953e8b3b5633f4f74d31f40a80332"
+    },
+    {
+      "path": "Icon/Legacy/ddgksf2013/xiaohongshu.png",
+      "upstream": {
+        "repository": "ddgksf2013/Icon",
+        "ref": "533a5c58a2f742c2850620564331fa122b12ca47",
+        "path": "qx/xiaohongshu.png"
+      },
+      "git_blob": "fea29dd2272153692aa656718b4f80889084e383",
+      "sha256": "bc6ccb63ca75ab92f7c5318ac1d6be131782570324f8311f719f1b0be4659de5"
+    },
+    {
+      "path": "Icon/Legacy/ddgksf2013/zhihu.png",
+      "upstream": {
+        "repository": "ddgksf2013/Icon",
+        "ref": "533a5c58a2f742c2850620564331fa122b12ca47",
+        "path": "qx/zhihu.png"
+      },
+      "git_blob": "69f900f908c3a2560203414fca557d134bb5ad03",
+      "sha256": "c81171f829e471fdc4d1763e58ccc67d72566ffc3492e1637ecba5cb4f822400"
+    },
+    {
+      "path": "Icon/Qure/Color/Quantumult_X.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Quantumult_X.png"
+      },
+      "git_blob": "5a7381d66aa7452eadd6d256bc6a05d9b1f181d8",
+      "sha256": "aa094213b89df5acee4febea9502a2a3781ac3e0f3127bebb89600d0a33bb55c"
+    },
+    {
+      "path": "Icon/Qure/Color/AI.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/AI.png"
+      },
+      "git_blob": "106cc4a8edf1188f6dd2dcb90b24099318615f78",
+      "sha256": "dea91e9e528c7f32e7bb7c4d390be6a0b8b65a89ff9d6d5e764e2c318201f98f"
+    },
+    {
+      "path": "Icon/Dashboard/apple.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/apple.png"
+      },
+      "git_blob": "2cb9119b281208446dc7da63f555c8ba8a5617d5",
+      "sha256": "2287c6c6c4d166217e5ec3b786d103a6b88f91092df806646d1ce4dcab759ea1"
+    },
+    {
+      "path": "Icon/Dashboard/chatgpt.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/chatgpt.png"
+      },
+      "git_blob": "cc68d786341a54397f833e1a7e5595d2bad8c35d",
+      "sha256": "4e881a7f017181681438748d2409240a104e1764860847b49e894afac032f5ad"
+    },
+    {
+      "path": "Icon/Qure/Color/Final.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Final.png"
+      },
+      "git_blob": "0ef2529f5200eebe58a6bd61c762366286ef0f2e",
+      "sha256": "2f5e1d63526c34b4a26194bf07c554d35b98b25bbfaa988611d6ecb77e3f511f"
+    },
+    {
+      "path": "Icon/Qure/Color/Game.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Game.png"
+      },
+      "git_blob": "e559096aa31058eefd377b57fa5bc72ea874086d",
+      "sha256": "987cd6fc525be621a75f7d39043a69c65c976d173dd1922d5743201bfee886ea"
+    },
+    {
+      "path": "Icon/Qure/Color/Global.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Global.png"
+      },
+      "git_blob": "b52103674ab64d080b6bef90aa5675ad6fa32772",
+      "sha256": "0338f9c7e185e24bdc41bc55b7ee8c5cbb7dafb041d7a6addcef2884b85e73d3"
+    },
+    {
+      "path": "Icon/Qure/Color/HKMTMedia.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/HKMTMedia.png"
+      },
+      "git_blob": "932923e55cc3e7ab10c58ccc29bbbf20677a5ac0",
+      "sha256": "21c4de34d472da9329684246940149f62c2b80a52f7db4a5887fedecd3606de8"
+    },
+    {
+      "path": "Icon/Qure/Color/Hong_Kong.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Hong_Kong.png"
+      },
+      "git_blob": "4f4be839b822b41c2339aea85b0488b315f4a5c2",
+      "sha256": "eacee82c61b21e7a926b4f393403bf8f783b3109352b7dbd20b6ffd9c0d742c2"
+    },
+    {
+      "path": "Icon/Qure/Color/IPLC.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/IPLC.png"
+      },
+      "git_blob": "fa48a66832c5736d5f195a2c5fd5c09890f19d96",
+      "sha256": "507a382b2285fce6e16854d78b3f13e13095d3bf0294f936489af08d6475e7f0"
+    },
+    {
+      "path": "Icon/Qure/Color/Japan.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Japan.png"
+      },
+      "git_blob": "586ff991179751ac0c8b3b9b5ed30eff683445cf",
+      "sha256": "59e351aab014850cd4b2a26fd17ce6a993649fffb44d8956c6635838432e0d82"
+    },
+    {
+      "path": "Icon/Qure/Color/Korea.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Korea.png"
+      },
+      "git_blob": "7cef8ff7f48f858aeabc4c6a17e8bf72f7d48f43",
+      "sha256": "2612736989c0932b9d9057111f00b704aa1f146efcaa2ca853bade05d3f967ab"
+    },
+    {
+      "path": "Icon/Dashboard/netflix.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/netflix.png"
+      },
+      "git_blob": "140f340ecd35491ac122808224b6a7e04f9afd96",
+      "sha256": "f6fd02b1c4823ceb7d0782134d48f1ca0e418aff71f9fb0e84f09626c3566746"
+    },
+    {
+      "path": "Icon/Qure/Color/Singapore.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/Singapore.png"
+      },
+      "git_blob": "cd0198293929c4724fc65d0c6ffec80c761c88e0",
+      "sha256": "192249f40299813067a960ad964093a6dbfa965e2509d0b4ddf920eb4a1441cd"
+    },
+    {
+      "path": "Icon/Qure/Color/TW.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/TW.png"
+      },
+      "git_blob": "ecf7dac1c5ef1e47229fc26b8fd6c511bdabdf34",
+      "sha256": "2c462eea6576f4452f46437f509d0476e7a9ccf440124cb5aad2d8aa9ffe1feb"
+    },
+    {
+      "path": "Icon/Dashboard/tiktok.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/tiktok.png"
+      },
+      "git_blob": "528f7810ba867194df7dc7c8e9961d0e30318d3e",
+      "sha256": "34757df3705d868debed060a8fa88f90e728dc70c76bb06cb81c9238ef326ee1"
+    },
+    {
+      "path": "Icon/Qure/Color/United_Kingdom.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/United_Kingdom.png"
+      },
+      "git_blob": "c4978024ad2e537e1601755b09e202a484ea93bf",
+      "sha256": "6cfdcbf276e9561321f3a90bef76c4176be0ffa2be0e97fcf954c52b7dbecfdf"
+    },
+    {
+      "path": "Icon/Qure/Color/United_States.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/Color/United_States.png"
+      },
+      "git_blob": "4d6858e406576f75438fd32eaf5c7140f06c93a5",
+      "sha256": "63d7c028ea38626029cc968ff93ee63eee6672fab1750ccbda1ad1eabebc5f5a"
+    },
+    {
+      "path": "Icon/Qure/mini/GlobalMedia.png",
+      "upstream": {
+        "repository": "Koolson/Qure",
+        "ref": "b16b260625f873266f6a6a9b88710132774997b8",
+        "path": "IconSet/mini/GlobalMedia.png"
+      },
+      "git_blob": "f9d761fd31a16383c34c6348fad5c80393e05334",
+      "sha256": "551ac14c433d64d42bda03422e5431efa12520882f345db87a23cd366f7d3cc3"
+    },
+    {
+      "path": "Icon/Dashboard/meta.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/meta.png"
+      },
+      "git_blob": "d9ffd301aa28b67029ca989af7af2dadba350226",
+      "sha256": "6b61dd6f979e6e1d9e361edca7d2f87f890817cae73ba341acbfdf3e5d843543"
+    },
+    {
+      "path": "Icon/Dashboard/anthropic.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/anthropic.png"
+      },
+      "git_blob": "9831b4d4685ce1a1891cc68de8629486f09b08a7",
+      "sha256": "863147fc0a9445b43a7d62393a582e37788834b2170e5e494263aa00ca199a62"
+    },
+    {
+      "path": "Icon/Custom/WgetCloud.png",
+      "upstream": {
+        "url": "https://image.crisp.chat/avatar/website/f7be7b7b-e9cf-4393-b2a3-5e2a206ed75a/120/?1793852393670",
+        "provided_by": "user",
+        "original_format": "WEBP",
+        "original_sha256": "9e6d8f0e37bf346090d1bb531cf784341fd57bb71f9ee71d591d32c89e231082",
+        "conversion": "PNG 编码，RGBA 像素保持一致"
+      },
+      "git_blob": "d635f025a76165fd00b9bada1df4589684126e43",
+      "sha256": "4e936d8fd3d13cb44a5d5ff12ea1ec6dfcc46b8b8fdd622b806381fd241c03e7"
+    },
+    {
+      "path": "Icon/Dashboard/adblock.png",
+      "upstream": {
+        "repository": "homarr-labs/dashboard-icons",
+        "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
+        "path": "png/adblock.png"
+      },
+      "git_blob": "869112e837722b0742b875ac3cbed4276998eece",
+      "sha256": "2e18444f7a2b03e8106303ea0e40c34d32b59ae35a907724b6d21559e8409874"
+    }
+  ],
+  "url_map": {
+    "https://github.com/Koolson/Qure/raw/master/IconSet/mini/Advertising.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/adblock.png",
+    "https://github.com/Koolson/Qure/raw/master/IconSet/mini/WeChat.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/wechat.png",
+    "https://github.com/ddgksf2013/Icon/raw/master/qx/baiduwangpan.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/baiduwangpan.png",
+    "https://github.com/ddgksf2013/Icon/raw/master/qx/caiyuntianqi.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/caiyuntianqi.png",
+    "https://github.com/ddgksf2013/Icon/raw/master/qx/xianyu.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/xianyu.png",
+    "https://github.com/ddgksf2013/Icon/raw/master/qx/xiaohongshu.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/xiaohongshu.png",
+    "https://github.com/ddgksf2013/Icon/raw/master/qx/zhihu.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/zhihu.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AAEX.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Quantumult_X.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/AI.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/apple.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Azure.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Custom/WgetCloud.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/chatgpt.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Claude.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/anthropic.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Final.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Game.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Global.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HKMTMedia.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/HKMTMedia.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Hong_Kong.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IPLC.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/IPLC.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Japan.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Korea.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Muse.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/meta.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/netflix.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Singapore.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TW.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/TW.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/United_Kingdom.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/United_States.png",
+    "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/mini/GlobalMedia.png",
+    "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png"
+  }
+}

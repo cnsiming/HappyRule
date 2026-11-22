@@ -24,3 +24,7 @@ HappyRule 的组织方式借鉴了以下优秀项目，规则内容通过 Vendor
 3. **合集不静态维护**：需要合集时用 `tools/dedupe.py` 现场校验，避免快照过期。
 4. **私密信息不入库**：订阅链接、私有节点凭据、MITM 证书、个人 IP 只存在本地完整配置（Profile 仓库版已脱敏）。
 5. **重写保留来源并记录实际验证范围**；是否启用以最新在用配置为准，不能将历史说明当作当前验证结果。
+
+## 图标副本
+
+本项目图标来源、许可与固定版本见 [Icon/README.md](Icon/README.md) 和 `Icon/manifest.json`；保留 Dashboard Icons、Koolson/Qure、ddgksf2013/Icon 署名。

@@ -5,3 +5,5 @@ s|https://ddgksf2013\.top/scripts/luckincoffee\.ads\.js|https://raw.githubuserco
 s|https://ddgksf2013\.top/scripts/redbook\.ads\.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/redbook.ads.js|g
 s|https://ddgksf2013\.top/scripts/zhihu\.ads\.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/zhihu.ads.js|g
 s|https://ddgksf2013\.top/scripts/bdpan\.ads\.js|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Rewrite/qx/bdpan.ads.js|g
+# 保留 TikTok 重写图标的本项目地址，避免上游同步后恢复外部图标引用。
+s|https://raw\.githubusercontent\.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok\.png|https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png|g
