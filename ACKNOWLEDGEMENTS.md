@@ -19,8 +19,8 @@ HappyRule 的组织方式借鉴了以下优秀项目，规则内容通过 Vendor
 
 ## 维护原则（吸收各家之长后的本项目约定）
 
-1. **一处维护，多端生成**：只改 `Rules/`（纯域名），`scripts/generate.sh` 自动生成 QX/Clash/Surge/SmartDNS/dnsmasq/PassWall 六种格式。
+1. **一处维护，多端生成**：只改 `Rules/`（纯域名），`tools/generate.sh` 自动生成 QX/Clash/Surge/SmartDNS/dnsmasq/PassWall 六种格式。
 2. **上游不直接引用**：外部列表先同步进 `Vendor/`（自有副本），各端订阅自己的 raw 链接；上游更新由 Actions 每周抓取。
-3. **合集不静态维护**：需要合集时用 `scripts/dedupe.py` 现场校验，避免快照过期。
-4. **私密信息不入库**：订阅链接、MITM 证书、个人 IP 只存在本地配置（Profile 仓库版已脱敏）。
-5. **每条重写标注来源与验证日期**，失效即移除（如 Yu9191/wloc 已于 2026-10 移除）。
+3. **合集不静态维护**：需要合集时用 `tools/dedupe.py` 现场校验，避免快照过期。
+4. **私密信息不入库**：订阅链接、私有节点凭据、MITM 证书、个人 IP 只存在本地完整配置（Profile 仓库版已脱敏）。
+5. **重写保留来源并记录实际验证范围**；是否启用以最新在用配置为准，不能将历史说明当作当前验证结果。
