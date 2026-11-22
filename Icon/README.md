@@ -12,6 +12,14 @@
 
 更新图标或清单后运行 `python tools/build_icon_gallery.py`，同时维护常用顺序。格式与直接添加方式依据 [QX 官方说明](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)。
 
+## Dashboard Icons 完整库
+
+[添加完整库](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fgallery.json%22%5D) · [订阅地址](https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/DashboardIcons/gallery.json) · [官方查询页面](https://dashboardicons.com/icons)
+
+完整库为上游实际 4,894 张原生 PNG（含明暗变体），全部自托管并适配为 144×144；与上方 HappyRule 常用库分别订阅，详见 [完整库说明](DashboardIcons/README.md)。
+
+[同时添加两个库（常用库在前）](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2Fgallery.json%22%2C%22https%3A%2F%2Fraw.githubusercontent.com%2Fcnsiming%2FHappyRule%2Frules%2FIcon%2FDashboardIcons%2Fgallery.json%22%5D)；此为提交添加的顺序，实际跨库排列由 QX 控制。
+
 ## 来源与许可
 
 - [Dashboard Icons](https://github.com/homarr-labs/dashboard-icons)：新图源，最近核对提交为 2026-11-16；Apache-2.0，许可原文见 `LICENSES/`。
