@@ -1,5 +1,5 @@
 {
-  "checked_at_beijing": "2026-11-22 14:41:01 (UTC+8，北京时间)",
+  "checked_at_beijing": "2026-11-22 14:58:06 (UTC+8，北京时间)",
   "icons": [
     {
       "path": "Icon/Dashboard/wechat.png",
@@ -8,8 +8,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/wechat.png"
       },
-      "git_blob": "983b48d6e7eecfceed7c1bddf6341073e0fe2722",
-      "sha256": "71fd7b7249b6c9ec260b788daa9332f0589b4144f3ecfb4584392fd256b70e69"
+      "git_blob": "0fcb112d3b8a7103ba4052c3488de23dbbdedcfe",
+      "sha256": "24a392deca01b254464bfeb91b1adca3317696070b367db45c924ff5e56fdec5",
+      "upstream_git_blob": "983b48d6e7eecfceed7c1bddf6341073e0fe2722",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          512,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Legacy/ddgksf2013/baiduwangpan.png",
@@ -88,8 +101,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/apple.png"
       },
-      "git_blob": "2cb9119b281208446dc7da63f555c8ba8a5617d5",
-      "sha256": "2287c6c6c4d166217e5ec3b786d103a6b88f91092df806646d1ce4dcab759ea1"
+      "git_blob": "b487ac11151f5b3fe5c15f55d422a6c93802c13c",
+      "sha256": "9de19e4a8ad845a347d46188019c1919bf99467731ccab050e71ec72fdefc4ff",
+      "upstream_git_blob": "2cb9119b281208446dc7da63f555c8ba8a5617d5",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          417,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Dashboard/chatgpt.png",
@@ -98,8 +124,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/chatgpt.png"
       },
-      "git_blob": "cc68d786341a54397f833e1a7e5595d2bad8c35d",
-      "sha256": "4e881a7f017181681438748d2409240a104e1764860847b49e894afac032f5ad"
+      "git_blob": "6246a1064240471285f76b4ee94717dc61540039",
+      "sha256": "53b12f3e75a599dad8a6735f6ade5bbec90701b2a2cb9943971958d3ba337315",
+      "upstream_git_blob": "cc68d786341a54397f833e1a7e5595d2bad8c35d",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          512,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Qure/Color/Final.png",
@@ -188,8 +227,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/netflix.png"
       },
-      "git_blob": "140f340ecd35491ac122808224b6a7e04f9afd96",
-      "sha256": "f6fd02b1c4823ceb7d0782134d48f1ca0e418aff71f9fb0e84f09626c3566746"
+      "git_blob": "5ae1a822ab43012c61a23719b01909d0f24533c2",
+      "sha256": "fb2675a2e28e9202d1f00f92e0ac6bdbd9e84914581f102c5a9c7c2e3ad62bb3",
+      "upstream_git_blob": "140f340ecd35491ac122808224b6a7e04f9afd96",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          282,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Qure/Color/Singapore.png",
@@ -218,8 +270,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/tiktok.png"
       },
-      "git_blob": "528f7810ba867194df7dc7c8e9961d0e30318d3e",
-      "sha256": "34757df3705d868debed060a8fa88f90e728dc70c76bb06cb81c9238ef326ee1"
+      "git_blob": "a5e9c3ded9d32faf7df090ee1619ab5833cf077a",
+      "sha256": "ae50088736b1c43bdb87f72eb9f5d418c996ba2dfd1c52807207d71af7bf737b",
+      "upstream_git_blob": "528f7810ba867194df7dc7c8e9961d0e30318d3e",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          451,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Qure/Color/United_Kingdom.png",
@@ -258,8 +323,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/meta.png"
       },
-      "git_blob": "d9ffd301aa28b67029ca989af7af2dadba350226",
-      "sha256": "6b61dd6f979e6e1d9e361edca7d2f87f890817cae73ba341acbfdf3e5d843543"
+      "git_blob": "581d8b9f21434c3766b5b18d8a23e001abc9ba8c",
+      "sha256": "f16d1af2ad3be908c21adae62fc97ba6601bcdcd512c829ef20f4af0c709a02a",
+      "upstream_git_blob": "d9ffd301aa28b67029ca989af7af2dadba350226",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          771,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Dashboard/anthropic.png",
@@ -268,8 +346,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/anthropic.png"
       },
-      "git_blob": "9831b4d4685ce1a1891cc68de8629486f09b08a7",
-      "sha256": "863147fc0a9445b43a7d62393a582e37788834b2170e5e494263aa00ca199a62"
+      "git_blob": "f6ef43362462f98310179c2a7cdc9af71e4c1c35",
+      "sha256": "4d6b6d412712fd21d9634b63cf0db4211ec1020e945faa83fdd25b6f4c573c0a",
+      "upstream_git_blob": "9831b4d4685ce1a1891cc68de8629486f09b08a7",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          512,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Custom/WgetCloud.png",
@@ -278,10 +369,23 @@
         "provided_by": "user",
         "original_format": "WEBP",
         "original_sha256": "9e6d8f0e37bf346090d1bb531cf784341fd57bb71f9ee71d591d32c89e231082",
-        "conversion": "PNG 编码，RGBA 像素保持一致"
+        "conversion": "WEBP 解码后按比例适配 144×144 透明 PNG，不拉伸、不裁剪图形。"
       },
-      "git_blob": "d635f025a76165fd00b9bada1df4589684126e43",
-      "sha256": "4e936d8fd3d13cb44a5d5ff12ea1ec6dfcc46b8b8fdd622b806381fd241c03e7"
+      "git_blob": "a90d1fecc946c967eba43c35a58d83e53c0ce23b",
+      "sha256": "11fb47a731dafb092c5a316bfaff245f0a1424fd63dac9b6e2706280f95fe651",
+      "upstream_git_blob": "d635f025a76165fd00b9bada1df4589684126e43",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          120,
+          120
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     },
     {
       "path": "Icon/Dashboard/adblock.png",
@@ -290,8 +394,21 @@
         "ref": "d4b500dc40a8e1043b1581cabb7208892cf35472",
         "path": "png/adblock.png"
       },
-      "git_blob": "869112e837722b0742b875ac3cbed4276998eece",
-      "sha256": "2e18444f7a2b03e8106303ea0e40c34d32b59ae35a907724b6d21559e8409874"
+      "git_blob": "1b8618182fc24574ca95e516961c62af74d90a4c",
+      "sha256": "673265ee3e2df2e54274220a7ecf3b0fdf49fd38eee75533374882edad00a8a1",
+      "upstream_git_blob": "869112e837722b0742b875ac3cbed4276998eece",
+      "render": {
+        "canvas": [
+          144,
+          144
+        ],
+        "source_size": [
+          512,
+          512
+        ],
+        "fit": "contain",
+        "background": "transparent"
+      }
     }
   ],
   "url_map": {
@@ -325,5 +442,6 @@
     "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/United_States.png",
     "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/mini/GlobalMedia.png",
     "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png"
-  }
+  },
+  "gallery_version": "20261122-145806-Icon-Gallery"
 }

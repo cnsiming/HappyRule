@@ -1,0 +1,126 @@
+{
+  "name": "HappyRule",
+  "description": "常用图标优先 · 更新：2026-11-22 14:58:06 (UTC+8，北京时间) · 20261122-145806-Icon-Gallery",
+  "icons": [
+    {
+      "name": "01 WgetCloud",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Custom/WgetCloud.png"
+    },
+    {
+      "name": "02 PineDrama",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png"
+    },
+    {
+      "name": "03 TikTok",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/tiktok.png"
+    },
+    {
+      "name": "04 ChatGPT",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/chatgpt.png"
+    },
+    {
+      "name": "05 Claude",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/anthropic.png"
+    },
+    {
+      "name": "06 Muse / Meta",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/meta.png"
+    },
+    {
+      "name": "07 美国",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/United_States.png"
+    },
+    {
+      "name": "08 日本",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Japan.png"
+    },
+    {
+      "name": "09 香港",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Hong_Kong.png"
+    },
+    {
+      "name": "10 韩国",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Korea.png"
+    },
+    {
+      "name": "11 台湾",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/TW.png"
+    },
+    {
+      "name": "12 新加坡",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Singapore.png"
+    },
+    {
+      "name": "13 英国",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/United_Kingdom.png"
+    },
+    {
+      "name": "14 苹果服务",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/apple.png"
+    },
+    {
+      "name": "15 Netflix",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/netflix.png"
+    },
+    {
+      "name": "16 AI",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/AI.png"
+    },
+    {
+      "name": "17 全球加速",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Global.png"
+    },
+    {
+      "name": "18 IPLC",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/IPLC.png"
+    },
+    {
+      "name": "19 游戏",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Game.png"
+    },
+    {
+      "name": "20 港台番剧",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/HKMTMedia.png"
+    },
+    {
+      "name": "21 国际媒体",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/mini/GlobalMedia.png"
+    },
+    {
+      "name": "22 Final",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Final.png"
+    },
+    {
+      "name": "23 广告净化",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/adblock.png"
+    },
+    {
+      "name": "24 微信",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Dashboard/wechat.png"
+    },
+    {
+      "name": "25 百度网盘",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/baiduwangpan.png"
+    },
+    {
+      "name": "26 彩云天气",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/caiyuntianqi.png"
+    },
+    {
+      "name": "27 闲鱼",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/xianyu.png"
+    },
+    {
+      "name": "28 小红书",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/xiaohongshu.png"
+    },
+    {
+      "name": "29 知乎",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Legacy/ddgksf2013/zhihu.png"
+    },
+    {
+      "name": "30 Quantumult X",
+      "url": "https://raw.githubusercontent.com/cnsiming/HappyRule/rules/Icon/Qure/Color/Quantumult_X.png"
+    }
+  ]
+}

@@ -11,3 +11,4 @@
 - WLOC 已按用户当前 iOS 27 环境停用；除非用户要求，不重新启用规则、MITM 主机或自动同步。
 - TikTok/PineDrama 共享 API/CDN，不宣称可按 App 自动切换；保留原有 TikTok 选项与重写开关，改区最多启用一项，未经实测不声明兼容。
 - 配置图标统一指向本仓库 `Icon/`；更新时核对来源、许可和实际图形变化，维护清单与上游同步替换补丁。
+- 图标库订阅为 `Icon/gallery.json`；图标和清单变更后运行 `python tools/build_icon_gallery.py`，保留常用优先顺序和 144×144 PNG 适配；不宣称订阅能强制跨库置顶。

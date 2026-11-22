@@ -7,7 +7,7 @@
 - `Profile/QuantumultX.conf`：用户最新在用 QX 配置的脱敏副本。
 - `Rules/`、`Filter/`：分流与过滤源；`dist/` 为自动生成结果。
 - `Vendor/`、`Rewrite/`、`Scripts/`：引用资源及同步清单。
-- `Icon/`：本项目托管的图标、来源与许可，见 [Icon/README.md](Icon/README.md)。
+- `Icon/`：本项目图标库、直接添加入口与来源许可，见 [Icon/README.md](Icon/README.md)。
 - 来源署名见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
 
 ## 版本维护
